@@ -5,7 +5,7 @@ using Bogus;
 
 namespace Persistence;
 
-public class DataContext : DbContext//, IDataContext
+public class DataContext : DbContext, IDataContext
 {
     public DbSet<Movie> Movies { get; set; }
 
