@@ -1,13 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Domain;
-using System.Net.Http.Headers;
-using System.Text.Json;
 using Bogus;
 
-namespace Persistance;
+namespace Persistence;
 
 public class DataContext : DbContext
 {
+    public DbSet<Movie> Movies { get; set; }
+    
     public DataContext()
     {
     }
@@ -15,9 +15,7 @@ public class DataContext : DbContext
     public DataContext(DbContextOptions options) : base(options)
     {
     }
-
-    public DbSet<Movie> Movies { get; set; }
-
+    
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Movie>(m =>
@@ -35,15 +33,20 @@ public class DataContext : DbContext
                 );
         });
 
-        var fakeMovies = new Faker<Movie>()
-            .RuleFor(x => x.Id, x => x.Random.Number(1, 100))
-            .RuleFor(x => x.Title, f => f.Name.ToString())
-            .RuleFor(x => x.Synopsis, f => f.Lorem.ToString())
-            .RuleFor(x => x.ImdbURL, f => f.Make(3, () => f.Address.ToString()))
-            .RuleFor(x => x.Genre, f => f.Make(3, () => f.Music.ToString()))
-            .RuleFor(x => x.ImdbRating, f => 7.4f)
-            .RuleFor(x => x.Released, f => f.Date.Past().Year);
-
+        var fakeMovies = new List<Movie>();
+        for (var i = 0; i < 100; i++)
+        {
+            var fakeMovie = new Faker<Movie>()
+                .RuleFor(x => x.Id, i+1)
+                .RuleFor(x => x.Title, f => f.Name.ToString())
+                .RuleFor(x => x.Synopsis, f => f.Lorem.ToString())
+                .RuleFor(x => x.ImdbURL, f => f.Make(3, () => f.Address.ToString()))
+                .RuleFor(x => x.Genre, f => f.Make(3, () => f.Music.ToString()))
+                .RuleFor(x => x.ImdbRating, f => 7.4f)
+                .RuleFor(x => x.Released, f => f.Date.Past().Year);
+            fakeMovies.Add(fakeMovie);
+        }
+        
         modelBuilder.Entity<Movie>().HasData(fakeMovies);
     }
 }

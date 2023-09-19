@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Persistance;
+using Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,10 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<Persistance.DataContext>(opt =>
-{
-    opt.UseMySQL(builder.Configuration.GetConnectionString("Default"));
-});
+builder.Services.AddPersistenceServices(builder.Configuration);
 
 var app = builder.Build();
 
