@@ -1,7 +1,9 @@
-﻿using Application.Features.GetMovie;
+﻿using System.Net;
+using Application.Features.GetMovie;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.Annotations;
 
 namespace WebAPI.Controllers;
 
@@ -20,8 +22,11 @@ public class MoviesController : ControllerBase
     /// Returns movie object based on a specific ID
     /// </summary>
     /// <param name="id"></param>
-    /// <returns>Movie object</returns>
+    /// <returns><see cref="Movie"/></returns>
     [HttpGet("{id:int}")]
+    [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Movie))]
+    [SwaggerResponse((int)HttpStatusCode.NotFound, Description = "Movie couldn't be found with given id")]
+    [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
     public async Task<ActionResult<Movie>> GetMovieAsync(int id)
     {
         var getMovieQuery = new GetMovieQuery(id);
