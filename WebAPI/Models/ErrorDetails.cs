@@ -1,4 +1,4 @@
-﻿namespace WebAPI.Error;
+﻿namespace WebAPI.Models;
 
 public class ErrorDetails
 {
