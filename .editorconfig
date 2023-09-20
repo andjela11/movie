@@ -12,6 +12,8 @@ insert_final_newline = true
 charset = utf-8-bom 
 
 # Organize usings 
+# Remove unnecessary import
+dotnet_diagnostic.IDE0005.severity = warning 
 dotnet_sort_system_directives_first = true 
 # this. preferences 
 dotnet_style_qualification_for_field = true:suggestion
