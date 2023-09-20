@@ -12,6 +12,7 @@ public static class PersistenceServiceCollectionExtensions
         {
             opt.UseMySQL(configuration.GetConnectionString("Default"));
         });
+
         return services;
     }
 }
