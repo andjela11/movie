@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using Application.Exceptions;
+using Application.Interfaces;
 
 using Domain;
 
@@ -17,10 +18,18 @@ public sealed class GetMovieQueryHandler : IRequestHandler<GetMovieQuery, Movie?
         _context = context;
     }
 
-    public Task<Movie?> Handle(GetMovieQuery request, CancellationToken cancellationToken)
+    public async Task<Movie?> Handle(GetMovieQuery request, CancellationToken cancellationToken)
     {
-        var movie = _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id,
-            cancellationToken: cancellationToken);
+        throw new InvalidOperationException();
+        Movie? movie;
+        try
+        {
+            movie = await _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+        }
+        catch (InvalidOperationException e)
+        {
+            throw new MoreThanOneMovieException("This shouldn't be happening", e);
+        }
         return movie;
     }
 }
