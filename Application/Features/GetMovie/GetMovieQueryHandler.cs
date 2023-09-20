@@ -20,7 +20,6 @@ public sealed class GetMovieQueryHandler : IRequestHandler<GetMovieQuery, Movie?
 
     public async Task<Movie?> Handle(GetMovieQuery request, CancellationToken cancellationToken)
     {
-        throw new InvalidOperationException();
         Movie? movie;
         try
         {
