@@ -1,6 +1,9 @@
 ﻿using Application.Interfaces;
+
 using Domain;
+
 using MediatR;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace Application.Features.GetMovie;

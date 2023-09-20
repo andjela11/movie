@@ -1,4 +1,5 @@
 ﻿using Application.Features.GetMovie;
+
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Application;

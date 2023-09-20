@@ -1,4 +1,5 @@
 ﻿using Domain;
+
 using MediatR;
 
 namespace Application.Features.GetMovie;

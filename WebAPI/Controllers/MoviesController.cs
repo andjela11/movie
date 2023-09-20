@@ -1,4 +1,4 @@
-using Application.Features.GetMovie;
+﻿using Application.Features.GetMovie;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -26,12 +26,12 @@ public class MoviesController : ControllerBase
     {
         var getMovieQuery = new GetMovieQuery(id);
         var movie = await _mediator.Send(getMovieQuery);
-        
+
         if (movie is not null)
         {
             return Ok(movie);
         }
-        
+
         return NotFound();
     }
 }
