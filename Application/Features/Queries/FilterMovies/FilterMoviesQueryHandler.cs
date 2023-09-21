@@ -3,9 +3,9 @@ using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Application.Features.FilterMovies;
+namespace Application.Features.Queries.FilterMovies;
 
-public class FilterMoviesQueryHandler : IRequestHandler<FilterMoviesQuery, List<Movie>>
+public sealed class FilterMoviesQueryHandler : IRequestHandler<FilterMoviesQuery, List<Movie>>
 {
     private readonly IDataContext _context;
 
@@ -16,7 +16,7 @@ public class FilterMoviesQueryHandler : IRequestHandler<FilterMoviesQuery, List<
 
     public async Task<List<Movie>> Handle(FilterMoviesQuery request, CancellationToken cancellationToken)
     {
-        var movies = _context.Movies.AsQueryable();
+        var movies = this._context.Movies.AsQueryable();
         if (request.MovieFilter!.MinYear != 0)
         {
             movies = movies.Where(x => x.Released >= request.MovieFilter.MinYear);

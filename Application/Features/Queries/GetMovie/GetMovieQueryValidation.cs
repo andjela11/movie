@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace Application.Features.GetMovie;
+namespace Application.Features.Queries.GetMovie;
 
 public class GetMovieQueryValidation : AbstractValidator<GetMovieQuery>
 {

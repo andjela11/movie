@@ -1,5 +1,5 @@
 ﻿using Application.Exceptions;
-using Application.Features.GetMovie;
+using Application.Features.Queries.GetMovie;
 using Application.Interfaces;
 
 using Domain;
