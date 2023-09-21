@@ -1,6 +1,6 @@
 ﻿namespace Application.Contracts;
 
-public class MovieFiltersDto
+public class MovieFilters
 {
     public int MinYear { get; set; }
     public int MaxYear { get; set; }
