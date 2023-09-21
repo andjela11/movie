@@ -72,7 +72,7 @@ public class MoviesController : ControllerBase
     /// <param name="movieCreate">Parameters for movie object</param>
     /// <returns><see cref="MovieDto"/></returns>
     [HttpPost("create")]
-    [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Movie))]
+    [SwaggerResponse((int)HttpStatusCode.Created, Type = typeof(Movie))]
     [SwaggerResponse((int)HttpStatusCode.UnprocessableEntity, Description = "Unsuccessful validation")]
     [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
     public async Task<ActionResult> CreateMovieAsync([FromBody] CreateMovieDto movieCreate)
