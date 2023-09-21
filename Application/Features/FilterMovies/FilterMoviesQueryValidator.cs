@@ -6,18 +6,18 @@ public class FilterMoviesQueryValidator : AbstractValidator<FilterMoviesQuery>
 {
     public FilterMoviesQueryValidator()
     {
-        When(x => x.MovieFilters is not null, () =>
+        When(x => x.MovieFilter is not null, () =>
         {
-            When(x => x.MovieFilters!.MinYear > 0, () =>
+            When(x => x.MovieFilter!.MinYear > 0, () =>
             {
-                RuleFor(x => x.MovieFilters!.MinYear)
+                RuleFor(x => x.MovieFilter!.MinYear)
                     .InclusiveBetween(1800, DateTime.Now.Year)
                     .WithMessage("Year must be between 1800 and current year");
             });
 
-            When(x => x.MovieFilters!.MaxYear > 0, () =>
+            When(x => x.MovieFilter!.MaxYear > 0, () =>
             {
-                RuleFor(x => x.MovieFilters!.MaxYear).LessThanOrEqualTo(DateTime.Now.Year)
+                RuleFor(x => x.MovieFilter!.MaxYear).LessThanOrEqualTo(DateTime.Now.Year)
                     .WithMessage("Year must be less than or equal to current year");
             });
         });
