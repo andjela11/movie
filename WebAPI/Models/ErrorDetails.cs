@@ -2,12 +2,11 @@
 
 public class ErrorDetails
 {
-    public ErrorDetails(int statusCode, string message, string? details, Dictionary<string, string[]>? validationErrors)
+    public ErrorDetails(int statusCode, string message, string? details)
     {
         StatusCode = statusCode;
         Message = message;
         Details = details;
-        ValidationErrors = validationErrors;
     }
 
     public int StatusCode { get; set; }

@@ -48,8 +48,8 @@ public class ExceptionMiddleware
             context.Response.StatusCode = (int)HttpStatusCode.UnprocessableEntity;
 
             var response = new
-                ErrorDetails(context.Response.StatusCode, e.Message, "Validation Error", validationErrors);
-
+                ErrorDetails(context.Response.StatusCode, e.Message, "Validation Error") { ValidationErrors = validationErrors };
+            
             var json = JsonSerializer.Serialize(response,
                 new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase, WriteIndented = true });
 
@@ -63,9 +63,9 @@ public class ExceptionMiddleware
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
 
             var response = this._env.IsDevelopment()
-                ? new ErrorDetails(context.Response.StatusCode, e.Message, e.StackTrace, null)
-                : new ErrorDetails(context.Response.StatusCode, e.Message, "Something went wrong", null);
-
+                ? new ErrorDetails(context.Response.StatusCode, e.Message, e.StackTrace)
+                : new ErrorDetails(context.Response.StatusCode, e.Message, "Something went wrong");
+            
             var opt = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
 
             var json = JsonSerializer.Serialize(response, opt);

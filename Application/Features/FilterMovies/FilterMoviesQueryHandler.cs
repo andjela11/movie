@@ -17,14 +17,14 @@ public class FilterMoviesQueryHandler : IRequestHandler<FilterMoviesQuery, List<
     public async Task<List<Movie>> Handle(FilterMoviesQuery request, CancellationToken cancellationToken)
     {
         var movies = _context.Movies.AsQueryable();
-        if (request.MovieFiltersDto!.MinYear != 0)
+        if (request.MovieFilters!.MinYear != 0)
         {
-            movies = movies.Where(x => x.Released >= request.MovieFiltersDto.MinYear);
+            movies = movies.Where(x => x.Released >= request.MovieFilters.MinYear);
         }
 
-        if (request.MovieFiltersDto.MaxYear != 0)
+        if (request.MovieFilters.MaxYear != 0)
         {
-            movies = movies.Where(x => x.Released <= request.MovieFiltersDto.MaxYear);
+            movies = movies.Where(x => x.Released <= request.MovieFilters.MaxYear);
         }
 
         return await movies

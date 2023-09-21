@@ -45,17 +45,17 @@ public class MoviesController : ControllerBase
     /// <summary>
     /// Returns a specified number of movies based on passed filters for released years
     /// </summary>
-    /// <param name="movieFilters"></param>
+    /// <param name="movieFilter"></param>
     /// <param name="pageSize"></param>
     /// <param name="pageNumber"></param>
     /// <returns></returns>
-    [HttpPost("get-movies-async")]
+    [HttpPost("get-movies")]
     public async Task<ActionResult<List<Movie>>> GetMoviesAsync(
-        [FromBody] MovieFilters movieFilters,
+        [FromBody] MovieFilter movieFilter,
         [FromQuery] int pageSize = 50,
         [FromQuery] int pageNumber = 1)
     {
-        var getMoviesQuery = new FilterMoviesQuery(PageSize: pageSize, PageNumber: pageNumber, movieFilters);
+        var getMoviesQuery = new FilterMoviesQuery(PageSize: pageSize, PageNumber: pageNumber, movieFilter);
         var movies = await this._mediator.Send(getMoviesQuery);
 
         if (movies.Count == 0)
