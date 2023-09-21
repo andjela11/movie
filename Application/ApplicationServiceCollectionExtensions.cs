@@ -1,5 +1,5 @@
-﻿using Application.Features.FilterMovies;
-using Application.Features.GetMovie;
+﻿using Application.Features.Queries.FilterMovies;
+using Application.Features.Queries.GetMovie;
 using Application.Validation;
 using FluentValidation;
 using MediatR;

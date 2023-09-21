@@ -2,6 +2,6 @@
 using Domain;
 using MediatR;
 
-namespace Application.Features.FilterMovies;
+namespace Application.Features.Queries.FilterMovies;
 
 public record FilterMoviesQuery(int PageSize, int PageNumber, MovieFilterDto? MovieFilter) : IRequest<List<Movie>>;

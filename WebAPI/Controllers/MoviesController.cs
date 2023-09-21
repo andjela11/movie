@@ -1,7 +1,8 @@
 ﻿using System.Net;
 using Application.Contracts;
-using Application.Features.FilterMovies;
-using Application.Features.GetMovie;
+using Application.Features.Commands.CreateMovie;
+using Application.Features.Queries.FilterMovies;
+using Application.Features.Queries.GetMovie;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -62,5 +63,23 @@ public class MoviesController : ControllerBase
         var movies = await this._mediator.Send(getMoviesQuery);
 
         return Ok(movies);
+    }
+
+
+    /// <summary>
+    /// Creates movie based on given parameters
+    /// </summary>
+    /// <param name="movieCreate">Parameters for movie object</param>
+    /// <returns><see cref="MovieDto"/></returns>
+    [HttpPost("create")]
+    [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Movie))]
+    [SwaggerResponse((int)HttpStatusCode.UnprocessableEntity, Description = "Unsuccessful validation")]
+    [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
+    public async Task<ActionResult> CreateMovieAsync([FromBody] CreateMovieDto movieCreate)
+    {
+        var createMovieCommand = new CreateMovieCommand(movieCreate);
+        var movieDto = await this._mediator.Send(createMovieCommand);
+
+        return Created($"movies/{movieDto.Id}", movieDto);
     }
 }
