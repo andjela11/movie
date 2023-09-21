@@ -24,11 +24,11 @@ public sealed class GetMovieQueryHandler : IRequestHandler<GetMovieQuery, Movie?
         try
         {
             movie = await _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id, cancellationToken);
+            return movie;
         }
         catch (InvalidOperationException e)
         {
             throw new MoreThanOneMovieException("This shouldn't be happening", e);
         }
-        return movie;
     }
 }
