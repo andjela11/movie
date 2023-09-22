@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using Application.Contracts;
-using Application.Features.Commands.CreateMovie;
 using Application.Features.Commands.DeleteMovie;
+using Application.Features.Commands.UpsertMovie;
 using Application.Features.Queries.FilterMovies;
 using Application.Features.Queries.GetMovie;
 using Domain;
@@ -68,20 +68,20 @@ public class MoviesController : ControllerBase
 
 
     /// <summary>
-    /// Creates movie based on given parameters
+    /// Creates or update movie based on given parameters
     /// </summary>
-    /// <param name="movieCreate">Parameters for movie object</param>
+    /// <param name="movieUpsert">Parameters for movie object</param>
     /// <returns><see cref="MovieDto"/></returns>
-    [HttpPost("create")]
-    [SwaggerResponse((int)HttpStatusCode.Created, Type = typeof(Movie))]
+    [HttpPost("upsert")]
+    [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Movie))]
     [SwaggerResponse((int)HttpStatusCode.UnprocessableEntity, Description = "Unsuccessful validation")]
     [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
-    public async Task<ActionResult> CreateMovieAsync([FromBody] CreateMovieDto movieCreate)
+    public async Task<ActionResult> UpsertMovieAsync([FromBody] UpsertMovieDto movieUpsert)
     {
-        var createMovieCommand = new CreateMovieCommand(movieCreate);
-        var movieDto = await this._mediator.Send(createMovieCommand);
+        var upsertMovieCommand = new UpsertMovieCommand(movieUpsert);
+        var movieDto = await this._mediator.Send(upsertMovieCommand);
 
-        return Created($"movies/{movieDto.Id}", movieDto);
+        return Ok(movieDto);
     }
 
     /// <summary>
