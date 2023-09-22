@@ -1,4 +1,5 @@
-﻿using Application.Exceptions;
+﻿using Application.Contracts;
+using Application.Exceptions;
 using Application.Features.Queries.GetMovie;
 using Application.Interfaces;
 
@@ -56,7 +57,9 @@ public class GetMovieQueryHandlerTests
     public async Task GetMovieQuery_FindById_ShouldReturnMovieAsync()
     {
         // Arrange
-        var movies = new List<Movie> { new() { Id = 4, Title = "Rambo" } };
+        var id = 4;
+        var title = "Rambo";
+        var movies = new List<Movie> { new() { Id = id, Title = title } };
 
         dataContextMock.Setup(x => x.Movies).ReturnsDbSet(movies);
 
@@ -66,6 +69,9 @@ public class GetMovieQueryHandlerTests
         var result = await systemUnderTest.Handle(new GetMovieQuery(4), new CancellationToken());
 
         // Assert
-        result.Should().BeSameAs(movies.First());
+        result.Should().NotBeNull();
+        result.Should().BeOfType<MovieDto>();
+        result?.Id.Should().Be(id);
+        result?.Title.Should().Be(title);
     }
 }
