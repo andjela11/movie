@@ -1,4 +1,5 @@
 ﻿using System.Net;
+using System.Runtime.InteropServices;
 using System.Text.Json;
 using Application.Exceptions;
 using FluentValidation;
@@ -44,33 +45,42 @@ public class ExceptionMiddleware
                         Values = errorMessages.Distinct().ToArray()
                     })
                 .ToDictionary(x => x.Key, x => x.Values);
-            context.Response.ContentType = "application/json";
-            context.Response.StatusCode = (int)HttpStatusCode.UnprocessableEntity;
 
-            var response = new
-                ErrorDetails(context.Response.StatusCode, e.Message, "Validation Error") { ValidationErrors = validationErrors };
-            
-            var json = JsonSerializer.Serialize(response,
-                new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase, WriteIndented = true });
-
-            await context.Response.WriteAsync(json);
+            await GenerateExceptionResponse(e, context, (int)HttpStatusCode.UnprocessableEntity, "Validation error", validationErrors);
+        }
+        catch (EntityNotFoundException e)
+        {
+            await GenerateExceptionResponse(e, context, (int)HttpStatusCode.NotFound, "No entity with the given parameter was found");
         }
         catch (Exception e)
         {
             this._logger.LogError(e, e.Message);
 
-            context.Response.ContentType = "application/json";
-            context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-
-            var response = this._env.IsDevelopment()
-                ? new ErrorDetails(context.Response.StatusCode, e.Message, e.StackTrace)
-                : new ErrorDetails(context.Response.StatusCode, e.Message, "Something went wrong");
-            
-            var opt = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
-
-            var json = JsonSerializer.Serialize(response, opt);
-
-            await context.Response.WriteAsync(json);
+            await GenerateExceptionResponse(e, context, (int)HttpStatusCode.InternalServerError, "Something went wrong");
         }
+    }
+
+    private async Task GenerateExceptionResponse(
+        Exception e,
+        HttpContext context,
+        int statusCode,
+        string details,
+        Dictionary<string, string[]>? validationErrors = default)
+    {
+        context.Response.ContentType = "application/json";
+        context.Response.StatusCode = statusCode;
+
+        var response = new ErrorDetails(context.Response.StatusCode, e.Message, details);
+
+        if (validationErrors is not null)
+        {
+            response.ValidationErrors = validationErrors;
+        }
+
+        var opt = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
+
+        var json = JsonSerializer.Serialize(response, opt);
+
+        await context.Response.WriteAsync(json);
     }
 }

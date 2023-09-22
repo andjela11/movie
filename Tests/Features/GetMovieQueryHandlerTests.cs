@@ -4,7 +4,6 @@ using Application.Interfaces;
 
 using Domain;
 using FluentAssertions;
-using Microsoft.EntityFrameworkCore;
 
 using Moq;
 using Moq.EntityFrameworkCore;
@@ -40,12 +39,12 @@ public class GetMovieQueryHandlerTests
             {
                 Id = movieId,
                 Title = "Rambo 2"
-            }, 
+            },
         };
         dataContextMock.Setup(x => x.Movies).ReturnsDbSet(movies);
 
         systemUnderTest = new GetMovieQueryHandler(dataContextMock.Object);
-        
+
         // Act && Assert
         systemUnderTest.Invoking(x => x.Handle(new GetMovieQuery(movieId), new CancellationToken()))
             .Should().ThrowAsync<MoreThanOneMovieException>()

@@ -1,5 +1,4 @@
 ﻿using Application.Contracts;
-using Domain;
 using MediatR;
 
 namespace Application.Features.Queries.GetMovie;
