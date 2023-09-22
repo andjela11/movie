@@ -34,7 +34,7 @@ public sealed class UpsertMovieCommandHandler : IRequestHandler<UpsertMovieComma
         }
         else
         {
-            var movieToCreate = request.MovieUpsert.ToMovie();
+            var movieToCreate = request.MovieUpsert.ToCreateMovie();
             this._context.Movies.Add(movieToCreate);
             movie = movieToCreate;
         }

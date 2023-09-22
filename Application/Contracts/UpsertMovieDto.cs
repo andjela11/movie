@@ -4,7 +4,7 @@ namespace Application.Contracts;
 
 public record UpsertMovieDto(int? Id, string? Title, List<string>? Genre, string? Synopsis, int? Released)
 {
-    public Movie ToMovie()
+    public Movie ToCreateMovie()
         => new() { Title = Title, Genre = Genre, Synopsis = Synopsis, Released = Released };
 
     public Movie ToUpdateMovie(Movie movie)
