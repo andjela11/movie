@@ -2,9 +2,9 @@
 
 namespace Application.Features.Commands.CreateMovie;
 
-public class CreateMovieCommandValidation : AbstractValidator<CreateMovieCommand>
+public class CreateMovieCommandValidator : AbstractValidator<CreateMovieCommand>
 {
-    public CreateMovieCommandValidation()
+    public CreateMovieCommandValidator()
     {
         RuleFor(x => x.MovieCreate)
             .NotNull()

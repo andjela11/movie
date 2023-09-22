@@ -2,9 +2,9 @@
 
 namespace Application.Features.Commands.DeleteMovie;
 
-public class DeleteMovieCommandValidation : AbstractValidator<DeleteMovieCommand>
+public class DeleteMovieCommandValidator : AbstractValidator<DeleteMovieCommand>
 {
-    public DeleteMovieCommandValidation()
+    public DeleteMovieCommandValidator()
     {
         RuleFor(x => x.Id).NotNull();
     }

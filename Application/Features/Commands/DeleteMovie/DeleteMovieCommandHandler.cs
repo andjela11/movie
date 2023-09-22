@@ -1,6 +1,7 @@
 ﻿using Application.Exceptions;
 using Application.Interfaces;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Features.Commands.DeleteMovie;
 
@@ -15,11 +16,11 @@ public sealed class DeleteMovieCommandHandler : IRequestHandler<DeleteMovieComma
 
     public async Task Handle(DeleteMovieCommand request, CancellationToken cancellationToken)
     {
-        var movie = await _context.Movies.FindAsync(request.Id);
+        var movie = await _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id, cancellationToken: cancellationToken);
 
         if (movie is null)
         {
-            throw new EntityNotFoundException("Movie not found");
+            throw new EntityNotFoundException($"Movie with the id:{request.Id} was not found");
         }
 
         this._context.Movies.Remove(movie);

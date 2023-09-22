@@ -46,21 +46,26 @@ public class ExceptionMiddleware
                     })
                 .ToDictionary(x => x.Key, x => x.Values);
 
-            await GenerateExceptionResponse(context, (int)HttpStatusCode.UnprocessableEntity, e, "Validation error", validationErrors);
+            await GenerateExceptionResponse(e, context, (int)HttpStatusCode.UnprocessableEntity, "Validation error", validationErrors);
         }
         catch (EntityNotFoundException e)
         {
-            await GenerateExceptionResponse(context, (int)HttpStatusCode.NotFound, e, "No entity with the given parameter was found");
+            await GenerateExceptionResponse(e, context, (int)HttpStatusCode.NotFound, "No entity with the given parameter was found");
         }
         catch (Exception e)
         {
             this._logger.LogError(e, e.Message);
 
-            await GenerateExceptionResponse(context, (int)HttpStatusCode.InternalServerError, e, "Something went wrong");
+            await GenerateExceptionResponse(e, context, (int)HttpStatusCode.InternalServerError, "Something went wrong");
         }
     }
 
-    private async Task GenerateExceptionResponse(HttpContext context, int statusCode, Exception e, string details, [Optional] Dictionary<string, string[]> validationErrors)
+    private async Task GenerateExceptionResponse(
+        Exception e,
+        HttpContext context,
+        int statusCode,
+        string details,
+        [Optional] Dictionary<string, string[]> validationErrors)
     {
         context.Response.ContentType = "application/json";
         context.Response.StatusCode = statusCode;

@@ -95,9 +95,9 @@ public class MoviesController : ControllerBase
     [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
     public async Task<ActionResult> DeleteMovieAsync(int id)
     {
-        var req = new DeleteMovieCommand(id);
+        var deleteMovieCommand = new DeleteMovieCommand(id);
 
-        await this._mediator.Send(req);
+        await this._mediator.Send(deleteMovieCommand);
 
         return NoContent();
     }

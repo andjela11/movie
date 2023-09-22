@@ -20,6 +20,20 @@ public class FilterMoviesQueryValidator : AbstractValidator<FilterMoviesQuery>
                 RuleFor(x => x.MovieFilter!.MaxYear).LessThanOrEqualTo(DateTime.Now.Year)
                     .WithMessage("Year must be less than or equal to current year");
             });
+
+            When(x => x.MovieFilter!.MinYear < 0, () =>
+            {
+                RuleFor(x => x.MovieFilter!.MinYear)
+                    .GreaterThanOrEqualTo(0)
+                    .WithMessage("Year can not be less than 0");
+            });
+
+            When(x => x.MovieFilter!.MaxYear < 0, () =>
+            {
+                RuleFor(x => x.MovieFilter!.MaxYear)
+                    .GreaterThanOrEqualTo(0)
+                    .WithMessage("Year can not be less than 0");
+            });
         });
 
         RuleFor(x => x.PageNumber).GreaterThan(0)
