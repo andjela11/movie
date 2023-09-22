@@ -12,14 +12,14 @@ public sealed class CreateMovieCommandHandler : IRequestHandler<CreateMovieComma
     {
         this._context = context;
     }
-    
+
     public async Task<MovieDto> Handle(CreateMovieCommand request, CancellationToken cancellationToken)
     {
         var movie = request.MovieCreate.ToMovie();
 
         this._context.Movies.Add(movie);
         await this._context.SaveChangesAsync(cancellationToken);
-        
+
         return MovieDto.FromMovie(movie);
     }
 }

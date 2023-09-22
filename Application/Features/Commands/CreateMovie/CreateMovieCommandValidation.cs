@@ -9,7 +9,7 @@ public class CreateMovieCommandValidation : AbstractValidator<CreateMovieCommand
         RuleFor(x => x.MovieCreate)
             .NotNull()
             .WithMessage("Movie must not be null");
-        
+
         When(x => x.MovieCreate is not null, () =>
         {
             RuleFor(x => x.MovieCreate.Released)
@@ -23,8 +23,8 @@ public class CreateMovieCommandValidation : AbstractValidator<CreateMovieCommand
             RuleFor(x => x.MovieCreate.Genre)
                 .NotEmpty()
                 .WithMessage("At least one genre must be provided");
-            
-            RuleFor(x => x.MovieCreate.Synopsis)    
+
+            RuleFor(x => x.MovieCreate.Synopsis)
                 .NotEmpty()
                 .WithMessage("Provide description for the movie");
         });

@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using Application.Contracts;
 using Application.Features.Commands.CreateMovie;
+using Application.Features.Commands.DeleteMovie;
 using Application.Features.Queries.FilterMovies;
 using Application.Features.Queries.GetMovie;
 using Domain;
@@ -81,5 +82,23 @@ public class MoviesController : ControllerBase
         var movieDto = await this._mediator.Send(createMovieCommand);
 
         return Created($"movies/{movieDto.Id}", movieDto);
+    }
+
+    /// <summary>
+    /// Deletes movie with the given id
+    /// </summary>
+    /// <param name="id">Movie id</param>
+    /// <returns></returns>
+    [HttpDelete("{id:int}")]
+    [SwaggerResponse((int)HttpStatusCode.NoContent)]
+    [SwaggerResponse((int)HttpStatusCode.UnprocessableEntity, Description = "Unsuccessful validation")]
+    [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
+    public async Task<ActionResult> DeleteMovieAsync(int id)
+    {
+        var req = new DeleteMovieCommand(id);
+
+        await this._mediator.Send(req);
+
+        return NoContent();
     }
 }
