@@ -16,7 +16,7 @@ public sealed class DeleteMovieCommandHandler : IRequestHandler<DeleteMovieComma
 
     public async Task<Unit> Handle(DeleteMovieCommand request, CancellationToken cancellationToken)
     {
-        var movie = await _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id, 
+        var movie = await _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id,
             cancellationToken: cancellationToken);
 
         if (movie is null)
