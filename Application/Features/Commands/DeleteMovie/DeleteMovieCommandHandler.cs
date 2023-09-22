@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Application.Features.Commands.DeleteMovie;
 
-public sealed class DeleteMovieCommandHandler : IRequestHandler<DeleteMovieCommand>
+public sealed class DeleteMovieCommandHandler : IRequestHandler<DeleteMovieCommand, Unit>
 {
     private readonly IDataContext _context;
 
@@ -14,9 +14,10 @@ public sealed class DeleteMovieCommandHandler : IRequestHandler<DeleteMovieComma
         this._context = context;
     }
 
-    public async Task Handle(DeleteMovieCommand request, CancellationToken cancellationToken)
+    public async Task<Unit> Handle(DeleteMovieCommand request, CancellationToken cancellationToken)
     {
-        var movie = await _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id, cancellationToken: cancellationToken);
+        var movie = await _context.Movies.SingleOrDefaultAsync(x => x.Id == request.Id, 
+            cancellationToken: cancellationToken);
 
         if (movie is null)
         {
@@ -25,5 +26,7 @@ public sealed class DeleteMovieCommandHandler : IRequestHandler<DeleteMovieComma
 
         this._context.Movies.Remove(movie);
         await this._context.SaveChangesAsync(cancellationToken);
+
+        return default;
     }
 }

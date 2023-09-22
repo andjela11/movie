@@ -65,7 +65,7 @@ public class ExceptionMiddleware
         HttpContext context,
         int statusCode,
         string details,
-        [Optional] Dictionary<string, string[]> validationErrors)
+        Dictionary<string, string[]>? validationErrors = default)
     {
         context.Response.ContentType = "application/json";
         context.Response.StatusCode = statusCode;

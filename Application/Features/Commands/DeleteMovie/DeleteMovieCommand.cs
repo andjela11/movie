@@ -2,4 +2,4 @@
 
 namespace Application.Features.Commands.DeleteMovie;
 
-public record DeleteMovieCommand(int Id) : IRequest;
+public record DeleteMovieCommand(int Id) : IRequest<Unit>;
