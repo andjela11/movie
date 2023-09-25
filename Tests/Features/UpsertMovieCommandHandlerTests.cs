@@ -80,11 +80,6 @@ public class UpsertMovieCommandHandlerTests
             .Should().ThrowAsync<EntityNotFoundException>();
     }
 
-    private MovieDto ConvertToMovieDto(Movie movie)
-    {
-        return new MovieDto(movie.Id, movie.Title, movie.Genre, movie.Synopsis, movie.Released);
-    }
-
     private UpsertMovieDto ConvertToUpsertMovieDto(Movie movie)
     {
         return new UpsertMovieDto(movie.Id, movie.Title, movie.Genre, movie.Synopsis, movie.Released);
