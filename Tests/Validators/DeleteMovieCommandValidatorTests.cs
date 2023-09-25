@@ -22,7 +22,7 @@ public class DeleteMovieCommandValidatorTests
         // Act & Assert
         this._validator?.Validate(deleteMovieCommand).IsValid.Should().BeTrue();
     }
-    
+
     [Test]
     public void DeleteMovieCommandValidator_IdIsZero_ShouldBeInvalid()
     {
@@ -32,7 +32,7 @@ public class DeleteMovieCommandValidatorTests
         // Act & Assert
         this._validator?.Validate(deleteMovieCommand).IsValid.Should().BeFalse();
     }
-    
+
     [Test]
     public void DeleteMovieCommandValidator_IdIsNegative_ShouldBeInvalid()
     {
