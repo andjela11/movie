@@ -17,21 +17,40 @@ public class GetMovieQueryValidatorTests
     [Test]
     public void GetMovieQueryValidator_ValidPayload_ShouldBeValid()
     {
-        this._validator.Validate(GetValidPayload()).IsValid.Should().BeTrue();
+        // Arrange
+        GetMovieQuery getMovieQuery = GetValidPayload();
+        
+        // Act
+        var result = this._validator.Validate(getMovieQuery);
+        
+        // Assert
+        result.IsValid.Should().BeTrue();
     }
 
     [Test]
     public void GetMovieQueryValidator_IdIsZero_ShouldBeInvalid()
     {
+        // Arrange
         var getMovieQuery = GetValidPayload() with { Id = 0 };
-        this._validator.Validate(getMovieQuery).IsValid.Should().BeFalse();
+        
+        // Act
+        var resulst = this._validator.Validate(getMovieQuery);
+        
+        // Assert
+        resulst.IsValid.Should().BeFalse();
     }
 
     [Test]
     public void GetMovieQueryValidator_IdIsNegative_ShouldBeInvalid()
     {
+        // Arrange
         var getMovieQuery = GetValidPayload() with { Id = -2 };
-        this._validator.Validate(getMovieQuery).IsValid.Should().BeFalse();
+
+        // Act
+        var result = this._validator.Validate(getMovieQuery);
+        
+        // Assert
+        result.IsValid.Should().BeFalse();
     }
 
     private GetMovieQuery GetValidPayload()
