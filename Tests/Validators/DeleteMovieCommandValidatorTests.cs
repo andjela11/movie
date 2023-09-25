@@ -18,14 +18,14 @@ public class DeleteMovieCommandValidatorTests
     {
         this._validator?.Validate(GetValidPayload()).IsValid.Should().BeTrue();
     }
-    
+
     [Test]
     public void DeleteMovieCommandValidator_IdIsZero_ShouldBeInvalid()
     {
         var deleteMovieCommand = GetValidPayload() with { Id = 0 };
         this._validator?.Validate(deleteMovieCommand).IsValid.Should().BeFalse();
     }
-    
+
     [Test]
     public void DeleteMovieCommandValidator_IdIsNegative_ShouldBeInvalid()
     {

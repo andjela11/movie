@@ -1,5 +1,4 @@
-﻿using System.Net;
-using Application.Exceptions;
+﻿using Application.Exceptions;
 using Application.Features.Commands.DeleteMovie;
 using Application.Interfaces;
 using Domain;
@@ -51,12 +50,12 @@ public class DeleteMovieCommandHandlerTests
         this._dataContextMock?.Verify(dataContext => dataContext.SaveChangesAsync(It.IsAny<CancellationToken>()),
             Times.Once());
     }
-    
+
     [Test]
     public void DeleteMovieCommand_TwoMoviesWithSameId_ShouldThrowInvalidOperationException()
     {
         // Arrange 
-        var movies = new List<Movie> { new() { Id = 3, Title = "Rambo" },  new() { Id = 3, Title = "Rambo 1" } };
+        var movies = new List<Movie> { new() { Id = 3, Title = "Rambo" }, new() { Id = 3, Title = "Rambo 1" } };
 
         this._dataContextMock?.Setup(x => x.Movies).ReturnsDbSet(movies);
 
