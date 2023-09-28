@@ -42,7 +42,7 @@ public class MoviesController : ControllerBase
             return Ok(movies);
         }
 
-        return NoContent();
+        return NotFound();
     }
     
     /// <summary>

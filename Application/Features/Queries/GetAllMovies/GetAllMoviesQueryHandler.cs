@@ -18,11 +18,6 @@ public class GetAllMoviesQueryHandler : IRequestHandler<GetAllMoviesQuery, List<
     public async Task<List<MovieDto>> Handle(GetAllMoviesQuery request, CancellationToken cancellationToken)
     {
         var movies = await _context.Movies.ToListAsync(cancellationToken);
-        if (movies is null)
-        {
-            throw new EntityNotFoundException("No movies to show");
-        }
-
         return movies.Select(MovieDto.FromMovie).ToList();
     }
 }
