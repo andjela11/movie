@@ -1,4 +1,5 @@
-﻿using Application.Features.Queries.GetAllMovies;
+﻿using Application.Exceptions;
+using Application.Features.Queries.GetAllMovies;
 using Application.Interfaces;
 using Domain;
 using FluentAssertions;
@@ -64,14 +65,10 @@ public class GetAllMoviesQueryHandlerTests
 
         _systemUnderTest = new GetAllMoviesQueryHandler(_mockContext.Object);
         
-        // Act
-        //var result = await this._systemUnderTest.Handle(new GetAllMoviesQuery(), new CancellationToken());
+        // Act & Assert
         this._systemUnderTest.Invoking(x =>
                 x.Handle(new GetAllMoviesQuery(), new CancellationToken()))
-            .Should().ThrowAsync<Exception>()
+            .Should().ThrowAsync<EntityNotFoundException>()
             .WithMessage("No movies to show");
-
-        // Assert
-        //result.Count.Should().Be(movies.Count);
     }
 }

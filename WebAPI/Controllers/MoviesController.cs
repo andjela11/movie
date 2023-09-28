@@ -28,20 +28,21 @@ public class MoviesController : ControllerBase
     /// </summary>
     /// <returns>List of <see cref="MovieDto"/></returns>
     [HttpGet]
-    [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Movie))]
-    [SwaggerResponse((int)HttpStatusCode.NotFound, Description = "Movie couldn't be found with given id")]
+    [SwaggerResponse((int)HttpStatusCode.OK)]
+    [SwaggerResponse((int)HttpStatusCode.NoContent)]
+    [SwaggerResponse((int)HttpStatusCode.NotFound)]
     [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
     public async Task<ActionResult<List<MovieDto>>> GetAllMoviesAsync()
     {
         var getAllMoviesQuery = new GetAllMoviesQuery();
         var movies = await _mediator.Send(getAllMoviesQuery);
 
-        if (movies is not null || movies.Count > 0)
+        if (movies.Count > 0)
         {
             return Ok(movies);
         }
 
-        return NotFound();
+        return NoContent();
     }
     
     /// <summary>

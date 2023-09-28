@@ -1,4 +1,5 @@
 ﻿using Application.Contracts;
+using Application.Exceptions;
 using Application.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +20,7 @@ public class GetAllMoviesQueryHandler : IRequestHandler<GetAllMoviesQuery, List<
         var movies = await _context.Movies.ToListAsync(cancellationToken);
         if (movies is null)
         {
-            throw new Exception("No movies to show");
+            throw new EntityNotFoundException("No movies to show");
         }
 
         return movies.Select(MovieDto.FromMovie).ToList();
