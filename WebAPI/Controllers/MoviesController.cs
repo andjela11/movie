@@ -24,10 +24,9 @@ public class MoviesController : ControllerBase
     }
 
     /// <summary>
-    /// Returns movie object based on a specific ID
+    /// Returns all movies
     /// </summary>
-    /// <param name=></param>
-    /// <returns><see cref="Movie"/></returns>
+    /// <returns>List of <see cref="MovieDto"/></returns>
     [HttpGet]
     [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Movie))]
     [SwaggerResponse((int)HttpStatusCode.NotFound, Description = "Movie couldn't be found with given id")]
