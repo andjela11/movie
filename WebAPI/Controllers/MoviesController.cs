@@ -3,6 +3,7 @@ using Application.Contracts;
 using Application.Features.Commands.DeleteMovie;
 using Application.Features.Commands.UpsertMovie;
 using Application.Features.Queries.FilterMovies;
+using Application.Features.Queries.GetAllMovies;
 using Application.Features.Queries.GetMovie;
 using Domain;
 using MediatR;
@@ -22,6 +23,28 @@ public class MoviesController : ControllerBase
         _mediator = mediator;
     }
 
+    /// <summary>
+    /// Returns all movies
+    /// </summary>
+    /// <returns>List of <see cref="MovieDto"/></returns>
+    [HttpGet]
+    [SwaggerResponse((int)HttpStatusCode.OK)]
+    [SwaggerResponse((int)HttpStatusCode.NoContent)]
+    [SwaggerResponse((int)HttpStatusCode.NotFound)]
+    [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
+    public async Task<ActionResult<List<MovieDto>>> GetAllMoviesAsync()
+    {
+        var getAllMoviesQuery = new GetAllMoviesQuery();
+        var movies = await _mediator.Send(getAllMoviesQuery);
+
+        if (movies.Count > 0)
+        {
+            return Ok(movies);
+        }
+
+        return NotFound();
+    }
+    
     /// <summary>
     /// Returns movie object based on a specific ID
     /// </summary>
