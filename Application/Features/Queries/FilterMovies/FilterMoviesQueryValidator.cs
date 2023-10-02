@@ -6,6 +6,13 @@ public class FilterMoviesQueryValidator : AbstractValidator<FilterMoviesQuery>
 {
     public FilterMoviesQueryValidator()
     {
+        
+        RuleFor(x => x.PageNumber).GreaterThan(0)
+            .WithMessage("Page number must be greater than 0");
+        RuleFor(x => x.PageSize).GreaterThan(0)
+            .WithMessage("Page size must be greater than 0");
+        
+        /*
         When(x => x.MovieFilter is not null, () =>
         {
             When(x => x.MovieFilter!.MinYear > 0, () =>
@@ -35,10 +42,7 @@ public class FilterMoviesQueryValidator : AbstractValidator<FilterMoviesQuery>
                     .WithMessage("Year can not be less than 0");
             });
         });
+        */
 
-        RuleFor(x => x.PageNumber).GreaterThan(0)
-            .WithMessage("Page number must be greater than 0");
-        RuleFor(x => x.PageSize).GreaterThan(0)
-            .WithMessage("Page size must be greater than 0");
     }
 }

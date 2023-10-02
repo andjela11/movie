@@ -51,1002 +51,202 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = 1,
-                            Genre = "Soul,Hip Hop,Jazz",
+                            Genre = "Country,Metal,Folk",
                             ImdbRating = 7.4f,
-                            ImdbURL = "9226 Kris Overpass, East Reina, Virgin Islands, U.S.,9833 Ed Shoal, Ryanberg, Egypt,9231 Litzy Burg, East Meaghanport, Armenia",
-                            Released = 2023,
-                            Synopsis = "Mollitia voluptatum et a quos suscipit minima sunt. Nisi aut veritatis nisi id aut dolorum et iusto. Error officia aut dolores libero libero ut eum. Consequatur sunt cumque aut ex corporis molestiae harum iure. Veritatis autem saepe et voluptatem.",
-                            Title = "Ari"
+                            ImdbURL = "861 Alexandria Springs, West Velvafort, Somalia,594 Raynor Meadow, Beckerside, Burundi,93901 Kayli Bridge, Nevastad, Christmas Island",
+                            Released = 2022,
+                            Synopsis = "Est quae libero labore eligendi. Nisi facere magnam ut dicta deleniti non. Aut harum eaque temporibus. Voluptatem non id. Numquam ut dolores provident.",
+                            Title = "Rene"
                         },
                         new
                         {
                             Id = 2,
-                            Genre = "Classical,World,Rock",
+                            Genre = "Pop,Electronic,Metal",
                             ImdbRating = 7.4f,
-                            ImdbURL = "37071 Aubree Landing, West Lydia, Azerbaijan,72725 Andre Rest, New Charley, El Salvador,58793 Grant Avenue, South Kelsi, Brunei Darussalam",
+                            ImdbURL = "41790 Langosh Alley, Labadieport, Peru,580 Helene Spurs, South Cordia, Rwanda,1695 Gilbert Fort, North Danielle, Pitcairn Islands",
                             Released = 2023,
-                            Synopsis = "Laboriosam in sapiente. Laborum nesciunt numquam eligendi illum est laboriosam vitae odio et. Voluptates dolor quam quasi omnis assumenda eos. Velit velit consectetur eveniet quia perspiciatis quae.",
-                            Title = "Llewellyn"
+                            Synopsis = "Molestiae aliquam dolores maxime exercitationem hic esse. Voluptates quaerat at aperiam saepe harum ea. Perferendis esse quo amet quasi quia.",
+                            Title = "General"
                         },
                         new
                         {
                             Id = 3,
-                            Genre = "Hip Hop,World,Rap",
+                            Genre = "Folk,Stage And Screen,Soul",
                             ImdbRating = 7.4f,
-                            ImdbURL = "8385 Domenick Walk, East Jaqueline, Libyan Arab Jamahiriya,771 Wiegand Forge, Port Imaniside, Niue,815 Olson Corner, South Deven, Norfolk Island",
-                            Released = 2022,
-                            Synopsis = "Quo id est soluta qui architecto fugiat reiciendis ab. Autem et esse veritatis dolores fugiat eligendi a. Qui est repellendus sequi quibusdam aliquam vel nulla. Exercitationem et facilis magni vitae debitis facere. Sit delectus eligendi aspernatur. Aut eveniet est dolore et quidem quis fuga fugit nemo.",
-                            Title = "Brisa"
+                            ImdbURL = "6005 Clare Lodge, Lake Jonathon, Czech Republic,165 Luettgen Garden, Bartholomeshire, Libyan Arab Jamahiriya,840 Hubert Ways, Herminafurt, Bahrain",
+                            Released = 2023,
+                            Synopsis = "Amet sunt voluptas. Architecto dolorem voluptatem. Doloremque voluptatem quod distinctio et culpa enim minima minus omnis. Iure commodi et omnis excepturi ducimus dolorem laudantium velit. Alias et qui fuga iste aliquid qui est voluptatem nihil.",
+                            Title = "Darryl"
                         },
                         new
                         {
                             Id = 4,
-                            Genre = "Classical,Rap,Classical",
+                            Genre = "Rock,Rock,Hip Hop",
                             ImdbRating = 7.4f,
-                            ImdbURL = "62723 Lucius Gateway, New Sienna, Lithuania,1096 Wuckert Plains, Framiborough, Russian Federation,7837 Eddie Cove, New Kylieborough, Mauritania",
-                            Released = 2023,
-                            Synopsis = "Nemo sit ad quidem. Et laudantium illum aut voluptas tenetur vel. Sequi iusto sit eum sed ut sunt voluptas. Quia qui sit non dolores sit eum. Tenetur eveniet rem consequatur aliquam blanditiis consequuntur. Temporibus voluptatem tempore labore aut pariatur numquam.",
-                            Title = "Lucy"
+                            ImdbURL = "0432 Oceane Skyway, New Hellen, United States Minor Outlying Islands,3551 Hackett Harbors, Terrencestad, Niue,58825 Satterfield Mission, West Romaine, Bosnia and Herzegovina",
+                            Released = 2022,
+                            Synopsis = "Minus nostrum sit sequi in dolorem repellat in. Sequi et eum vero et sit impedit ut. Autem saepe modi facilis dolore.",
+                            Title = "Tracy"
                         },
                         new
                         {
                             Id = 5,
-                            Genre = "Electronic,Blues,Metal",
+                            Genre = "Folk,Metal,Latin",
                             ImdbRating = 7.4f,
-                            ImdbURL = "51830 Sporer Fork, Port Cindyton, Belize,3811 Magnus Skyway, O'Keefefurt, Liechtenstein,2708 Rippin Loaf, Lianaport, Tanzania",
-                            Released = 2023,
-                            Synopsis = "Assumenda et tempora non dignissimos animi voluptatum animi distinctio sunt. Temporibus error dolor a eligendi numquam quod rem aut. Earum dicta assumenda quaerat molestias beatae quibusdam est optio. Tenetur ut aperiam eos. Debitis illum soluta. Autem eum praesentium rerum natus sint.",
-                            Title = "Addison"
+                            ImdbURL = "47827 Koepp Squares, Fayside, Reunion,2726 Berneice Stravenue, Schillerside, Guam,682 Botsford Views, Wolfhaven, Saint Kitts and Nevis",
+                            Released = 2022,
+                            Synopsis = "Voluptatem quasi ducimus vel. Blanditiis nihil repudiandae ut harum qui exercitationem consectetur. Impedit ducimus natus omnis dignissimos possimus. Est enim ut repellendus nemo veniam at praesentium aspernatur occaecati. Debitis tempore ullam nesciunt sunt in molestiae autem quo. Deleniti eveniet omnis deleniti ut hic neque sed quo rerum.",
+                            Title = "Antonietta"
                         },
                         new
                         {
                             Id = 6,
-                            Genre = "Rock,Pop,Latin",
+                            Genre = "Country,Country,Folk",
                             ImdbRating = 7.4f,
-                            ImdbURL = "68854 Rempel Shoals, Terenceport, Tanzania,181 Welch Club, Schultzhaven, Jersey,94657 Schultz Falls, Jenkinsport, Turkmenistan",
-                            Released = 2022,
-                            Synopsis = "Dolor eveniet quia odio iure. Suscipit illum et aut totam. Et animi natus rem illo ab enim laudantium. Aut cupiditate temporibus laudantium alias incidunt aut quam labore minus.",
-                            Title = "Louvenia"
+                            ImdbURL = "263 Lemke Extension, West Corafort, Panama,707 Ludwig Corners, West Magdalena, Monaco,2031 Kiana Street, North Myriamtown, Reunion",
+                            Released = 2023,
+                            Synopsis = "Vel et qui ex inventore dolore debitis. Tempora dolore dolorem corrupti. Voluptate id iure voluptas velit similique laboriosam officia sint autem. Consequatur doloribus culpa quasi suscipit rerum sequi in molestiae.",
+                            Title = "Johann"
                         },
                         new
                         {
                             Id = 7,
-                            Genre = "Blues,Funk,Non Music",
+                            Genre = "Country,Non Music,Pop",
                             ImdbRating = 7.4f,
-                            ImdbURL = "2862 Ariane Stravenue, Moenport, Macao,7741 Wiza Gateway, New Lionelview, Marshall Islands,56937 Juanita Vista, Port Gussieview, Antarctica (the territory South of 60 deg S)",
-                            Released = 2022,
-                            Synopsis = "Quidem fuga assumenda molestiae nisi cumque a reiciendis quo doloremque. Molestias aut magnam aut ad non dolore. Accusamus et placeat nulla. Possimus modi ipsa consequatur error doloribus ad et quia est. Aut quam et nihil aliquam itaque quae maxime est ut.",
-                            Title = "Anne"
+                            ImdbURL = "05727 Adonis Knoll, New Ashleigh, Brazil,869 Nienow Trail, Rashawntown, Mexico,64747 Wayne Rue, Keelington, Djibouti",
+                            Released = 2023,
+                            Synopsis = "Ullam sint quisquam adipisci quod voluptates. Ullam voluptas deserunt facere quasi. Quia enim et harum adipisci nulla. Rerum voluptatum in ut nostrum eum ut atque fugit cum. Fugit totam in quaerat asperiores ipsa.",
+                            Title = "Brooklyn"
                         },
                         new
                         {
                             Id = 8,
-                            Genre = "Metal,Stage And Screen,Stage And Screen",
+                            Genre = "Electronic,Latin,Country",
                             ImdbRating = 7.4f,
-                            ImdbURL = "820 Ritchie Via, East Okeychester, Martinique,3256 Ritchie Hollow, Sengerton, Lithuania,1486 Carroll Hills, Kaleyfort, Saint Vincent and the Grenadines",
+                            ImdbURL = "5044 Aliza Roads, South Rettastad, Montserrat,7643 Lockman Highway, Lake Bartonside, Bolivia,419 Tia Mews, South Rosemariehaven, Georgia",
                             Released = 2023,
-                            Synopsis = "Est et aliquam sed eum optio commodi nesciunt asperiores facilis. Sed excepturi reiciendis. Ea aut vero sed quia necessitatibus id quidem. Commodi est ea est ratione. Nulla architecto architecto excepturi. Quibusdam magni et corrupti nisi atque in.",
-                            Title = "Liam"
+                            Synopsis = "Laborum vel rerum qui et aperiam at autem aliquid. Quia velit modi officiis ratione fuga iure. Natus recusandae aut architecto dolor quibusdam delectus quia quasi. Enim saepe voluptatem expedita.",
+                            Title = "Kylie"
                         },
                         new
                         {
                             Id = 9,
-                            Genre = "Hip Hop,World,Country",
+                            Genre = "Latin,Metal,Latin",
                             ImdbRating = 7.4f,
-                            ImdbURL = "0507 Milford Streets, Port Herminamouth, Uganda,289 Marietta Isle, New Connieburgh, Switzerland,55927 Pfeffer Meadows, West Linwood, Anguilla",
+                            ImdbURL = "220 McGlynn Tunnel, Shawnborough, Niue,2469 Gleason Square, Lake Vergiechester, Niger,007 Dickinson Bypass, Tarynside, Bahamas",
                             Released = 2022,
-                            Synopsis = "Iusto doloremque aut pariatur dolores. Sapiente saepe aliquam dolores voluptas dolores eius sint esse. Ut qui odit dolorem. Id sed ut enim autem expedita deserunt autem saepe. Blanditiis architecto dolores possimus repellat ut sed qui ea. Cum distinctio iure sint sapiente aliquid est repellendus magni dignissimos.",
-                            Title = "Nathaniel"
+                            Synopsis = "Quo perspiciatis sapiente beatae ut minus corporis quisquam non. Possimus ipsa et ad consequatur tempora. Iusto iste voluptates vel sit voluptatem quasi. Distinctio non dolorum nostrum similique dignissimos veniam rerum officia. Dolorum qui soluta illum sit cumque velit.",
+                            Title = "Rogers"
                         },
                         new
                         {
                             Id = 10,
-                            Genre = "Hip Hop,World,Latin",
+                            Genre = "Hip Hop,Funk,Latin",
                             ImdbRating = 7.4f,
-                            ImdbURL = "320 Yundt Estates, Ondrickachester, Burkina Faso,05236 Ziemann Locks, Deckowside, Barbados,5914 Dillon Street, Clemensshire, India",
-                            Released = 2023,
-                            Synopsis = "Quis omnis suscipit delectus sequi voluptatem veritatis quia quod assumenda. Nam odio tempore est et est sint quo. Rerum corrupti veniam vel ipsam. A non doloremque est nulla aut illum. Laudantium aut nemo aperiam earum ducimus ratione ex aut ipsa. Qui rerum recusandae.",
-                            Title = "Viola"
+                            ImdbURL = "07484 Lucinda Lodge, West Alexie, Tunisia,52821 Bednar Points, Lake Rosahaven, Niger,760 Halvorson Mission, Jenkinsland, Virgin Islands, British",
+                            Released = 2022,
+                            Synopsis = "Et ipsa eum sapiente occaecati. Aut sit accusamus. Illo accusamus sint veritatis. Autem illo laudantium animi adipisci rerum nulla qui. Quis rem et quis. Qui atque et et in.",
+                            Title = "Zella"
                         },
                         new
                         {
                             Id = 11,
-                            Genre = "Rock,Latin,Country",
+                            Genre = "World,Blues,World",
                             ImdbRating = 7.4f,
-                            ImdbURL = "71528 Littel Gateway, Ondrickashire, Malaysia,73993 Laurianne Fork, South Mabellebury, Norfolk Island,32211 Hane Mount, New Elyse, Antigua and Barbuda",
-                            Released = 2022,
-                            Synopsis = "Rerum est dolore in harum. Et voluptatem nemo quia voluptates magnam qui ipsum rerum asperiores. Vel quod ducimus perferendis sed qui aut animi.",
-                            Title = "Jodie"
-                        },
-                        new
-                        {
-                            Id = 12,
-                            Genre = "Hip Hop,Soul,Jazz",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "0011 Jast Green, Gradyland, Serbia,41324 Earline Mountains, Klockofurt, Marshall Islands,9133 Fay Lane, East Libby, Bolivia",
+                            ImdbURL = "893 Nedra Square, Auerburgh, Latvia,78446 Hills Junctions, Hoppeshire, Cayman Islands,3024 Lorine Summit, Vivienside, Chile",
                             Released = 2023,
-                            Synopsis = "Voluptatem impedit iure saepe nobis quas reiciendis modi nulla. Dicta doloremque id id est blanditiis amet voluptas est. Sint soluta qui voluptatem.",
-                            Title = "Larissa"
-                        },
-                        new
-                        {
-                            Id = 13,
-                            Genre = "Reggae,Rock,Country",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "178 Dax Pines, North Marleefurt, Virgin Islands, British,788 Wilford Park, Sherwoodland, Bolivia,746 Effertz Field, Schmelerville, Spain",
-                            Released = 2022,
-                            Synopsis = "Nemo inventore ut. Impedit vitae veritatis. Dicta minima fugit soluta praesentium commodi eveniet fugiat. Et provident fugit.",
-                            Title = "Darien"
-                        },
-                        new
-                        {
-                            Id = 14,
-                            Genre = "Hip Hop,Non Music,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "9383 Dooley Terrace, Bahringerberg, Republic of Korea,30814 Monique Island, West Lenora, Belgium,651 Daisha Plain, Lake Lewis, Moldova",
-                            Released = 2022,
-                            Synopsis = "Ut fugiat libero id repudiandae ratione laboriosam. Reprehenderit voluptatum at qui nobis id rerum sed. Cum rem saepe et nemo aliquam soluta. Blanditiis perspiciatis ut qui consequuntur fuga id.",
-                            Title = "Akeem"
-                        },
-                        new
-                        {
-                            Id = 15,
-                            Genre = "Rap,Folk,Stage And Screen",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "9991 Haag Hill, Wehnerborough, Nicaragua,4272 Zboncak Mill, East Ona, United Arab Emirates,833 Bosco Spring, West Heaven, Palestinian Territory",
-                            Released = 2022,
-                            Synopsis = "Qui facere voluptates quam rerum et voluptatem ducimus. Laboriosam ipsam architecto quasi cumque dolores alias. Architecto veniam sint quis. Recusandae et dicta qui nisi impedit tempore quaerat voluptatem inventore. Fugiat quidem velit sint quis qui.",
-                            Title = "Zachary"
-                        },
-                        new
-                        {
-                            Id = 16,
-                            Genre = "Jazz,Electronic,Pop",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "652 Gibson Glen, New Tatyana, Guatemala,306 Isabella View, Port Odie, Lithuania,490 O'Kon Drives, North Rosemaryberg, Togo",
-                            Released = 2022,
-                            Synopsis = "Eos placeat ducimus reiciendis rerum et nemo sit. Rem aspernatur possimus est nisi voluptates consequuntur quo. Qui nostrum exercitationem necessitatibus quia. A vitae et sunt. Nesciunt ut aut sed architecto ut enim voluptas.",
-                            Title = "Demarco"
-                        },
-                        new
-                        {
-                            Id = 17,
-                            Genre = "Soul,Hip Hop,Country",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "0089 Kira Route, Stokesview, Micronesia,64320 Rippin Fort, North Leefurt, Sweden,6703 Morgan Tunnel, Hermannville, Panama",
-                            Released = 2023,
-                            Synopsis = "Quo sapiente vel aut similique voluptatibus voluptatem fugit ipsum et. Sed non provident doloribus perferendis aut vel ex et. Omnis sint sed debitis soluta praesentium. Ducimus hic aut ut.",
-                            Title = "Nola"
-                        },
-                        new
-                        {
-                            Id = 18,
-                            Genre = "Stage And Screen,Soul,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "8085 Dickens Manors, East Lowellview, Angola,60593 Spinka Crest, Hansenfort, Western Sahara,6506 Junior Village, Naderville, Angola",
-                            Released = 2023,
-                            Synopsis = "Rerum eligendi ullam et omnis. Reprehenderit modi adipisci quasi. Suscipit vero ut eveniet. Maiores quia nesciunt incidunt quibusdam officiis. Voluptas a repellendus voluptatem laborum ut ab ut.",
-                            Title = "Gilberto"
-                        },
-                        new
-                        {
-                            Id = 19,
-                            Genre = "Funk,Rap,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "399 Christelle Loaf, West Clara, Singapore,871 Sibyl Unions, West Thelma, Bouvet Island (Bouvetoya),45906 Koepp Plains, North Rashawnview, Macao",
-                            Released = 2023,
-                            Synopsis = "Similique aperiam excepturi est tempore accusantium culpa eos nobis. Quidem nobis voluptatum reprehenderit eius facilis quidem aut. Asperiores id ut magnam laudantium vel provident dolorem consequuntur. Cum nisi quo dicta pariatur odit.",
-                            Title = "Isabel"
-                        },
-                        new
-                        {
-                            Id = 20,
-                            Genre = "Blues,Soul,Latin",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "418 Rolfson Parks, Jackieland, Iran,8695 Orpha Light, Lemkeburgh, Reunion,58452 Borer Square, Lake Glen, Estonia",
-                            Released = 2022,
-                            Synopsis = "Sapiente tenetur rem quia quia. Vel quod quasi corrupti repellat qui. Dolor quis dolor incidunt impedit et et consequatur dolore. Rerum quia animi rerum fuga voluptatum at soluta est recusandae. Velit nemo repellat omnis aut eligendi et.",
-                            Title = "Dereck"
-                        },
-                        new
-                        {
-                            Id = 21,
-                            Genre = "Latin,Classical,Jazz",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "77343 Jaida Alley, Port Jerrod, Albania,60989 Rebeca Grove, Germanshire, Turkey,42275 Kali Mews, Port Newtontown, Bulgaria",
-                            Released = 2023,
-                            Synopsis = "Cum ab illum quis sed et et. Qui dolor sit harum eveniet praesentium et et. Laborum explicabo reiciendis recusandae ut necessitatibus iste. Ducimus ut non quo suscipit. Dolorem accusamus dolore. Sint iure sunt ut omnis magni quos et ducimus.",
-                            Title = "Filomena"
-                        },
-                        new
-                        {
-                            Id = 22,
-                            Genre = "Electronic,Blues,Rap",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "5152 Gislason Squares, East Ethelfurt, Bangladesh,8324 Kreiger Isle, Gardnerbury, Equatorial Guinea,609 O'Hara Fork, South Lue, Liberia",
-                            Released = 2023,
-                            Synopsis = "Suscipit rerum doloremque distinctio tempore. Quam tempore minima voluptas delectus et qui. Sunt dolor impedit beatae unde dignissimos et. Quis dicta molestiae et autem voluptatum distinctio molestias cupiditate et.",
-                            Title = "Alyce"
-                        },
-                        new
-                        {
-                            Id = 23,
-                            Genre = "Funk,Electronic,Stage And Screen",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "6107 McLaughlin Walks, Lake Delia, Kiribati,521 Waelchi Plain, East Josiah, Singapore,46143 Theo Village, Jessikashire, Bolivia",
-                            Released = 2023,
-                            Synopsis = "Non quis qui alias. Exercitationem rerum praesentium fuga. Atque a repudiandae placeat suscipit sequi iusto laboriosam.",
-                            Title = "Carlie"
-                        },
-                        new
-                        {
-                            Id = 24,
-                            Genre = "Classical,Pop,Stage And Screen",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "581 Windler Ridge, Georgeshire, Cuba,75661 Emmalee Key, Bashirianland, Venezuela,8412 Kathleen Gardens, East Winonamouth, Bulgaria",
-                            Released = 2023,
-                            Synopsis = "Odio quia sapiente adipisci esse nulla. Iure vitae ullam et similique id a est sequi eveniet. Est quia debitis quo.",
-                            Title = "Jaden"
-                        },
-                        new
-                        {
-                            Id = 25,
-                            Genre = "Reggae,World,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "7080 Alvah Spurs, Mantemouth, Israel,855 Nasir Trafficway, South Marlin, Palestinian Territory,8704 Kihn Street, West Reubenfurt, Barbados",
-                            Released = 2023,
-                            Synopsis = "Fugit consequatur quia. Dolores est et quod est. Quia non sunt. Sit quidem quibusdam enim sunt quia earum aut.",
-                            Title = "Raegan"
-                        },
-                        new
-                        {
-                            Id = 26,
-                            Genre = "Funk,Blues,Latin",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "9304 Hoeger Place, Port Bradport, Sao Tome and Principe,3937 Geovanni Ville, Rebecaport, Heard Island and McDonald Islands,9237 Darrion Oval, South Marianna, Wallis and Futuna",
-                            Released = 2023,
-                            Synopsis = "Velit dignissimos ullam culpa assumenda. Quae quia sed placeat provident corrupti ad deleniti. Quidem ut nihil dolorem esse ut. Assumenda vel odio at adipisci aperiam nostrum nobis ipsum. Ullam quidem id id natus quasi itaque. Est incidunt quibusdam et sequi praesentium est.",
-                            Title = "Dariana"
-                        },
-                        new
-                        {
-                            Id = 27,
-                            Genre = "Rock,Pop,Non Music",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "6893 Huels Ports, Natashaville, Armenia,1231 Sawayn Bridge, Port Aleenville, French Guiana,6664 Anne Brooks, Cronaborough, Uganda",
-                            Released = 2022,
-                            Synopsis = "Quo hic cum rem ducimus sit facilis ipsa eveniet aut. Amet rerum ut nostrum enim aut officiis est. Voluptatem aliquid quo ipsa vel quo voluptate qui sit occaecati.",
-                            Title = "Walker"
-                        },
-                        new
-                        {
-                            Id = 28,
-                            Genre = "Hip Hop,Pop,Latin",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "342 Willow Rapids, South Rozellaland, Marshall Islands,288 Frederic Cape, Ritchieberg, Norway,459 Zelda Brooks, Stromanmouth, Somalia",
-                            Released = 2022,
-                            Synopsis = "Eum tempore mollitia. Quia dolores optio. At et velit. Consequatur est autem.",
-                            Title = "Esteban"
-                        },
-                        new
-                        {
-                            Id = 29,
-                            Genre = "Soul,Electronic,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "493 Aniya Parks, Demondfurt, Antarctica (the territory South of 60 deg S),3703 Daisha Knoll, West Damon, Libyan Arab Jamahiriya,217 Stroman Burg, Svenberg, Myanmar",
-                            Released = 2023,
-                            Synopsis = "Voluptatem quae et autem debitis. Consequatur est et. Perferendis veniam voluptates nostrum. Iste laborum rerum modi consequuntur et aliquam modi quia. Distinctio quod asperiores ea quae aut soluta sit impedit mollitia. Sed magni aliquam perspiciatis dolorem.",
-                            Title = "Liliana"
-                        },
-                        new
-                        {
-                            Id = 30,
-                            Genre = "Electronic,World,Jazz",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "897 Lueilwitz Motorway, Wolffport, Taiwan,85300 Kreiger View, Port Aricborough, Guernsey,1318 Krystel Cliff, Howellhaven, Saint Vincent and the Grenadines",
-                            Released = 2023,
-                            Synopsis = "A quia excepturi possimus ut rerum labore ipsa consequatur. Quod maiores voluptas. Qui dolorem iste. Reprehenderit laudantium ut aliquam. Earum nisi tempore et.",
-                            Title = "Brandt"
-                        },
-                        new
-                        {
-                            Id = 31,
-                            Genre = "Rap,Hip Hop,Stage And Screen",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "15340 Tremblay Route, Fordhaven, Chile,287 Kerluke Corners, Mantehaven, Cook Islands,7690 Breitenberg Center, Wisokyburgh, Maldives",
-                            Released = 2022,
-                            Synopsis = "Atque veritatis dolore et dolores. In sed incidunt. Impedit debitis sed necessitatibus qui dolor exercitationem ea. Accusamus adipisci enim sunt est sed voluptas earum ea repudiandae.",
-                            Title = "Lee"
-                        },
-                        new
-                        {
-                            Id = 32,
-                            Genre = "Blues,World,Non Music",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "4000 Jordane Trafficway, Lake Jadaberg, Vietnam,4679 Lane Bridge, East Jaynebury, Benin,7687 Collins Lane, Marvinland, Martinique",
-                            Released = 2023,
-                            Synopsis = "Et amet beatae maiores tenetur quia dolore. Qui odio libero alias. Quam aspernatur magnam quis. Ut iste repellendus distinctio voluptatem. Rem aut consequuntur aut dolores omnis ducimus at architecto sit.",
-                            Title = "Kirsten"
-                        },
-                        new
-                        {
-                            Id = 33,
-                            Genre = "Rap,Metal,Stage And Screen",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "4477 Fisher Groves, Estebanmouth, Cyprus,1772 Botsford Mills, Gracielafurt, American Samoa,61262 Langworth Passage, South Alfredastad, Norfolk Island",
-                            Released = 2022,
-                            Synopsis = "A amet ex qui voluptas aspernatur labore natus qui molestiae. Incidunt ut officiis est. Unde velit adipisci laudantium sunt commodi explicabo et. Et corporis placeat voluptas. Quod fugiat autem dolores quo nesciunt. Exercitationem similique velit delectus eum aut ut enim ea voluptas.",
-                            Title = "Justyn"
-                        },
-                        new
-                        {
-                            Id = 34,
-                            Genre = "Hip Hop,Non Music,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "3179 Candelario Trail, Lake Estahaven, Bermuda,8974 Herman Cape, Lazarostad, France,330 Jermaine Heights, Kariview, Japan",
-                            Released = 2023,
-                            Synopsis = "Aut unde minima temporibus sed tempora quibusdam et illo. Similique nihil fuga aut atque. Cumque laudantium ea autem vero omnis molestiae nulla cupiditate. Quibusdam quis ducimus pariatur voluptas minus. Et officia et quae esse voluptatem et.",
-                            Title = "Devan"
-                        },
-                        new
-                        {
-                            Id = 35,
-                            Genre = "Reggae,Electronic,Stage And Screen",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "485 Yost Union, West Fannie, Andorra,974 Elyssa Common, Abrahamport, Antarctica (the territory South of 60 deg S),149 Kaitlin Orchard, Lake Opheliaburgh, Jersey",
-                            Released = 2023,
-                            Synopsis = "Nostrum nihil dolorem quo enim error quia. Nisi praesentium veniam nesciunt enim sunt. Qui et dolore est minima officia ut commodi. Est eum quo molestiae ea vel eligendi odit aut. Distinctio et dolore animi. Aut exercitationem voluptatem inventore repellendus nulla facilis temporibus occaecati autem.",
-                            Title = "Turner"
-                        },
-                        new
-                        {
-                            Id = 36,
-                            Genre = "Stage And Screen,Blues,Country",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "539 Ike View, Ulicesport, Uganda,847 Stephany Ridge, Keelystad, Equatorial Guinea,039 Torp Flat, Port Lerashire, Thailand",
-                            Released = 2023,
-                            Synopsis = "Totam incidunt officia ducimus. Quo nobis sed odio aperiam corporis. Unde error molestiae ducimus alias et nihil. Similique eos cumque ut eos. Impedit aliquid dolorem quaerat dolorum voluptas.",
-                            Title = "Casey"
-                        },
-                        new
-                        {
-                            Id = 37,
-                            Genre = "Funk,Reggae,Country",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "7467 Gislason Stravenue, North Robertaport, Norfolk Island,5742 Joanne Ferry, New Eloisaburgh, Falkland Islands (Malvinas),7843 Dereck Springs, Hermistonfort, Thailand",
-                            Released = 2022,
-                            Synopsis = "Ad in ut neque quo autem vero quisquam. Reprehenderit hic nam nesciunt eum corporis et sunt. Repudiandae doloremque molestias.",
-                            Title = "Kennedy"
-                        },
-                        new
-                        {
-                            Id = 38,
-                            Genre = "Non Music,Hip Hop,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "2724 Morgan Forks, Alizaburgh, Sao Tome and Principe,222 Victor Hills, West Euna, Mayotte,83782 Durgan Street, West Sterling, Bosnia and Herzegovina",
-                            Released = 2023,
-                            Synopsis = "Aut velit molestiae. Veritatis neque nisi. Eos omnis nisi enim omnis nulla. Vel laboriosam ut ea consequatur vel. Adipisci amet voluptatibus expedita enim facere itaque facere. Maiores aspernatur dolor error harum.",
-                            Title = "Zita"
-                        },
-                        new
-                        {
-                            Id = 39,
-                            Genre = "Classical,Rock,Classical",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "33572 Grimes Ville, Feeneyburgh, Belgium,35868 Clemens Trail, New Karolann, Guyana,475 Elyse Drive, Mitchellville, Malaysia",
-                            Released = 2022,
-                            Synopsis = "Amet suscipit consequatur veritatis quo. Ex at sed et. Consectetur neque amet corporis eaque libero praesentium pariatur. Non rerum non officia cupiditate ducimus possimus est pariatur.",
-                            Title = "Jolie"
-                        },
-                        new
-                        {
-                            Id = 40,
-                            Genre = "Folk,Stage And Screen,Jazz",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "951 Melany Harbor, Kossburgh, Mexico,3377 Jana Mountains, East Reilly, New Zealand,7377 Purdy Tunnel, Steuberton, Niue",
-                            Released = 2023,
-                            Synopsis = "Voluptatibus distinctio nesciunt excepturi eveniet enim doloremque non. Magnam ullam corrupti et animi odit. Temporibus debitis possimus fuga.",
-                            Title = "Wendell"
-                        },
-                        new
-                        {
-                            Id = 41,
-                            Genre = "Funk,Electronic,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "2356 Turcotte Isle, Terrancemouth, Bermuda,17833 O'Hara Dam, South Maribelburgh, United States of America,76673 Deshawn Camp, Cassinstad, Guatemala",
-                            Released = 2023,
-                            Synopsis = "Quisquam veritatis quam. Esse consequuntur ducimus ad sed aut qui doloremque delectus voluptatem. Facilis nesciunt eius soluta earum expedita quia assumenda. Nostrum doloribus magnam delectus qui repudiandae accusamus accusamus. Saepe voluptates ut tenetur excepturi perferendis adipisci voluptas doloremque dolorem.",
-                            Title = "Jena"
-                        },
-                        new
-                        {
-                            Id = 42,
-                            Genre = "Stage And Screen,Stage And Screen,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "2363 Loma Corner, Davistown, Cocos (Keeling) Islands,49177 Harvey Square, Darrickport, Armenia,52641 Prohaska Canyon, Cummeratahaven, Comoros",
-                            Released = 2023,
-                            Synopsis = "Laborum nam et. Nemo nisi hic et. Blanditiis blanditiis aut rerum aut est veniam modi est a. Qui et necessitatibus explicabo quo nesciunt aperiam est dignissimos. Blanditiis dolorem repudiandae occaecati at vero. Voluptates officia quis cum quis nihil.",
-                            Title = "Tyra"
-                        },
-                        new
-                        {
-                            Id = 43,
-                            Genre = "Blues,Pop,Country",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "846 Mabelle Mount, West Marilieview, Madagascar,0798 Erika Summit, North Ernestinaview, Somalia,2935 Adalberto Lock, Beerview, Vanuatu",
-                            Released = 2023,
-                            Synopsis = "Ex labore sed sint molestias magni voluptatum est. Enim voluptates eaque molestiae iusto corporis dignissimos eos ipsam omnis. Cumque reiciendis est qui consectetur explicabo id. Iure explicabo molestiae ut molestias eos. Ut consequuntur similique adipisci ea beatae architecto. Perspiciatis ab dicta atque qui aspernatur voluptas non quo.",
-                            Title = "Jeanette"
-                        },
-                        new
-                        {
-                            Id = 44,
-                            Genre = "Blues,Reggae,Rap",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "4815 Branson Square, Heaneyfort, Cameroon,388 Graham Neck, Corneliusborough, Uzbekistan,7378 Maxine Common, Ondrickaside, Bahamas",
-                            Released = 2023,
-                            Synopsis = "Reiciendis vel culpa id aut quibusdam cupiditate et sed laborum. Libero numquam id sint. Vel deserunt ipsum sed eos. Dolorum expedita ratione sint et mollitia temporibus quae hic quibusdam. Rem beatae tempore expedita vero expedita voluptatem. Rem amet odio officia architecto qui aliquid optio itaque sapiente.",
-                            Title = "Otilia"
-                        },
-                        new
-                        {
-                            Id = 45,
-                            Genre = "Pop,Non Music,Latin",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "7482 Kuhlman Route, Royville, Tajikistan,130 Dooley Path, Nyahaven, South Africa,9023 Trantow Mews, Reingerstad, Montserrat",
-                            Released = 2023,
-                            Synopsis = "Eos fugiat molestiae suscipit qui iste laboriosam alias. Nemo voluptatem quod dolore voluptatem dolorum dolorem consequatur eum. Voluptatibus nisi nostrum eum quisquam odit nam nesciunt aut.",
-                            Title = "Miracle"
-                        },
-                        new
-                        {
-                            Id = 46,
-                            Genre = "Jazz,Rap,Blues",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "791 Wiza Turnpike, West Nellie, Puerto Rico,21921 Devan Point, Breitenbergbury, Guatemala,859 Guy Inlet, North Bradlyville, Moldova",
-                            Released = 2023,
-                            Synopsis = "Nulla neque id libero perferendis sunt magnam temporibus. Qui perferendis eum rerum quidem. Quia perspiciatis quo adipisci deserunt. Voluptatibus et possimus. Nostrum autem ipsum ratione maxime labore.",
-                            Title = "Violette"
-                        },
-                        new
-                        {
-                            Id = 47,
-                            Genre = "Rock,Blues,Rock",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "0423 Jack Creek, Schillerside, Zambia,9093 Shanna Trail, Mohrshire, Chad,001 Keeling Gardens, South Eldridge, Thailand",
-                            Released = 2022,
-                            Synopsis = "Omnis eum autem suscipit tenetur autem. Hic non impedit est eum aut et consequatur aut. Dolorem veniam illo iure eum. Impedit ea ad voluptatum optio recusandae. Molestias explicabo aut architecto asperiores eveniet fugiat maxime nihil.",
-                            Title = "Adah"
-                        },
-                        new
-                        {
-                            Id = 48,
-                            Genre = "Pop,Stage And Screen,Funk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "4275 Heather Keys, North Nora, Central African Republic,60295 Fiona Highway, East Samfurt, Guam,75063 German Rue, North Nilsburgh, Slovakia (Slovak Republic)",
-                            Released = 2023,
-                            Synopsis = "Odio quisquam minima inventore. Et numquam atque optio soluta esse blanditiis. Dolorem quia quo. Explicabo sit ab. Ab suscipit voluptatem qui consequatur qui fugiat quaerat. Voluptatum soluta iusto.",
-                            Title = "Curtis"
-                        },
-                        new
-                        {
-                            Id = 49,
-                            Genre = "Stage And Screen,World,Soul",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "0660 Omer Grove, Lake Newton, Bosnia and Herzegovina,24166 Balistreri Harbor, Leoburgh, Albania,8107 Dooley Isle, South Lavon, Moldova",
-                            Released = 2022,
-                            Synopsis = "Quidem est dolorum id eligendi odit consequatur corporis iusto. Facere officiis iste voluptates ullam voluptatibus. Sit saepe ullam accusantium inventore. Repellat reiciendis pariatur ut neque omnis voluptatem. Velit ratione expedita voluptatibus voluptatem quia.",
-                            Title = "Cydney"
-                        },
-                        new
-                        {
-                            Id = 50,
-                            Genre = "Hip Hop,Non Music,Metal",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "76310 Maximillia Extension, Baronmouth, Reunion,14785 Queenie Prairie, Rippinville, Denmark,79278 Hettinger Parkways, Port Tressietown, Gambia",
-                            Released = 2023,
-                            Synopsis = "Distinctio incidunt ullam. Voluptas ipsum et voluptatum inventore amet quia suscipit. Et dolor culpa impedit quo explicabo alias minus. Ea et et similique velit laudantium provident mollitia minima veritatis. Aspernatur accusantium labore aperiam eos sit et eum debitis.",
-                            Title = "Liliane"
-                        },
-                        new
-                        {
-                            Id = 51,
-                            Genre = "Rock,Pop,Electronic",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "143 O'Keefe Lane, Mannland, United States Minor Outlying Islands,7888 Jerod Avenue, Klockoside, Russian Federation,561 Terrell Meadow, Lisandroton, Uruguay",
-                            Released = 2022,
-                            Synopsis = "Reiciendis eaque similique soluta. Et ea corporis illum explicabo qui ea. Consectetur et deleniti necessitatibus dolores numquam quia ex. Sint eveniet rerum impedit sint consectetur. Quia et molestiae sequi sit quae nesciunt. Soluta sed ullam natus recusandae.",
-                            Title = "America"
-                        },
-                        new
-                        {
-                            Id = 52,
-                            Genre = "Pop,Rock,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "5303 Linwood Mission, Reynoldschester, South Georgia and the South Sandwich Islands,6642 Kendra Mill, Naderville, Japan,647 Dooley Place, New Arlene, Maldives",
-                            Released = 2023,
-                            Synopsis = "Voluptas ea enim rem nesciunt quisquam. Quod id sit et est repellat. Cum officia praesentium iusto non vero. Ut qui repellendus.",
-                            Title = "Maxie"
-                        },
-                        new
-                        {
-                            Id = 53,
-                            Genre = "Non Music,Country,Non Music",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "78171 Runte Route, East Madisen, Trinidad and Tobago,55735 Schiller Bypass, Lake Gregoria, Dominican Republic,3460 Champlin Curve, South Rupertside, Brazil",
-                            Released = 2022,
-                            Synopsis = "Alias amet repellat veritatis porro dignissimos iusto quibusdam aperiam asperiores. Cupiditate ducimus provident. Error sequi dignissimos architecto. Ipsa voluptas veritatis non. Et blanditiis dolores a minus.",
-                            Title = "Neva"
-                        },
-                        new
-                        {
-                            Id = 54,
-                            Genre = "Soul,Folk,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "60497 Carlo Forest, Lake Adonisshire, Chile,57780 Hegmann Extension, North Valentina, Mayotte,530 Brekke Groves, Loweville, United States of America",
-                            Released = 2023,
-                            Synopsis = "Voluptates ut sunt non rerum autem. Voluptas ut rerum. Vitae est dolor doloremque incidunt ab sed id quidem.",
-                            Title = "Taryn"
-                        },
-                        new
-                        {
-                            Id = 55,
-                            Genre = "Reggae,Hip Hop,Soul",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "83768 Mckenna Glen, Lake Dedric, Sudan,58379 Noah Burgs, East Niko, Georgia,6142 Zemlak Estates, Tillmanborough, Saint Lucia",
-                            Released = 2022,
-                            Synopsis = "Ut aut qui facere adipisci. Corporis minima doloribus odio nam. Suscipit quisquam laborum tempore harum sed sed corporis. Quis ut autem saepe saepe hic voluptatem.",
-                            Title = "Durward"
-                        },
-                        new
-                        {
-                            Id = 56,
-                            Genre = "Country,Soul,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "1869 Kenya Spring, New Lucileborough, Turkmenistan,9309 Purdy Extensions, Elodyport, Antarctica (the territory South of 60 deg S),2397 Ahmad Streets, Lake Mathilde, Kyrgyz Republic",
-                            Released = 2023,
-                            Synopsis = "Optio et et dolores incidunt quisquam. Tempora magnam omnis nihil dignissimos. Ut repellat eveniet similique sunt itaque dolorum reprehenderit. Eaque et voluptas reiciendis. Perspiciatis aut sequi. Aperiam quibusdam quia voluptatem reiciendis eum sed dolores occaecati vel.",
-                            Title = "Aisha"
-                        },
-                        new
-                        {
-                            Id = 57,
-                            Genre = "World,Rock,Jazz",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "858 Assunta Roads, Mayertmouth, Tanzania,583 Monahan Spring, Ceciliaville, Bouvet Island (Bouvetoya),671 Cyril Falls, Kaleborough, Peru",
-                            Released = 2023,
-                            Synopsis = "Voluptatem est saepe est consequuntur et. Voluptatem quia mollitia ab aperiam praesentium amet aspernatur dolor blanditiis. Dolores voluptatem rem ut est autem in qui blanditiis.",
-                            Title = "Carolina"
-                        },
-                        new
-                        {
-                            Id = 58,
-                            Genre = "Country,Folk,Electronic",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "671 Deckow Cape, West Randyshire, Myanmar,5363 Boyer Run, Handhaven, Hong Kong,93676 Denesik Springs, Ruperthaven, Estonia",
-                            Released = 2023,
-                            Synopsis = "Quaerat harum atque explicabo natus et ut maxime. Earum ipsa recusandae. Unde eos est.",
-                            Title = "Levi"
-                        },
-                        new
-                        {
-                            Id = 59,
-                            Genre = "Pop,Classical,Folk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "56149 Al Extension, Ebertshire, Anguilla,94108 Cremin Mountains, Haleychester, Sierra Leone,84425 Cartwright Streets, Ryannshire, Greece",
-                            Released = 2023,
-                            Synopsis = "Ab debitis dolores fugiat eum nemo odio et. Enim magni labore sequi est nam molestiae id minus magnam. Sint et consequuntur laudantium et quisquam facilis quisquam. Esse dolore unde laudantium distinctio non. Non molestiae non repudiandae blanditiis autem deleniti enim ut.",
-                            Title = "Bridie"
-                        },
-                        new
-                        {
-                            Id = 60,
-                            Genre = "Electronic,Soul,Classical",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "34334 Danielle Highway, Lake Laurianemouth, Svalbard & Jan Mayen Islands,5961 Bradly Orchard, Corwinshire, Tajikistan,56110 Carter Fords, Boyleshire, Morocco",
-                            Released = 2023,
-                            Synopsis = "Dolor beatae nihil impedit corporis quo velit doloremque labore. Vero itaque enim. Ipsum non impedit magni et quisquam. Impedit praesentium nihil culpa velit sed. Ipsam dolorum eum. Qui dolore enim aliquid impedit.",
-                            Title = "Deven"
-                        },
-                        new
-                        {
-                            Id = 61,
-                            Genre = "Soul,Rock,Soul",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "24405 Gabriel Circle, North Verdafort, French Guiana,51235 Clovis Branch, Bergeside, Yemen,968 McCullough Run, Kreigerbury, Greenland",
-                            Released = 2023,
-                            Synopsis = "Id est quos aliquam. Ea accusantium vitae sunt nihil qui architecto rerum. Sit adipisci quibusdam doloremque necessitatibus est ut veniam. Suscipit id suscipit voluptatum incidunt voluptatibus soluta vero. Sit repellat facere harum sed nihil minus labore dolorem. Qui alias vel consequatur repellat.",
-                            Title = "Rowena"
-                        },
-                        new
-                        {
-                            Id = 62,
-                            Genre = "Rock,Blues,Funk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "1548 Isaiah Pike, Lake Jany, Cayman Islands,551 Abbigail Villages, North Sarai, Japan,61249 Joel Tunnel, North Jayson, Saint Vincent and the Grenadines",
-                            Released = 2023,
-                            Synopsis = "Ut dolorem velit inventore fugiat voluptatem rerum. Ut cumque ea asperiores possimus ducimus sit quaerat libero. Distinctio sit non harum quidem. Laborum in perferendis accusantium molestias numquam repellendus omnis.",
-                            Title = "Ernestine"
-                        },
-                        new
-                        {
-                            Id = 63,
-                            Genre = "Rap,Blues,Blues",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "806 Connie Island, North Martinaborough, Turkmenistan,8389 Schamberger Squares, Zboncakshire, Bolivia,792 Hahn Brooks, West Mario, Namibia",
-                            Released = 2023,
-                            Synopsis = "Dolor quos eos modi facere officiis suscipit et. Ut vero sit autem consequuntur aut. Officia veritatis quae suscipit quia vitae in illum numquam quae.",
-                            Title = "Robyn"
-                        },
-                        new
-                        {
-                            Id = 64,
-                            Genre = "Country,Rock,Pop",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "5083 Ola Forges, West Rosaleechester, Libyan Arab Jamahiriya,95015 Myriam Circle, East Estella, Bulgaria,266 Paucek Mountains, Mohammedfort, Sierra Leone",
-                            Released = 2023,
-                            Synopsis = "Dolorem eos harum qui ipsum in error dolorem perspiciatis molestiae. Similique iste cum porro magnam cum dolorum. Ratione alias fugit quia numquam enim aliquam sed velit. Praesentium beatae facere sequi dolorem omnis rerum repellat saepe sapiente.",
-                            Title = "Vincenzo"
-                        },
-                        new
-                        {
-                            Id = 65,
-                            Genre = "Metal,Hip Hop,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "93900 Waelchi Ridges, Kihntown, Anguilla,676 Dickens Trace, Pamelafurt, Palau,77978 Zieme Oval, Jacobiton, France",
-                            Released = 2023,
-                            Synopsis = "At reiciendis reprehenderit repellendus facere minus magni. Aliquid voluptatem in hic ipsa quis nihil nisi et consequatur. Qui voluptas vel sit cum voluptas qui dignissimos nihil eius. Laborum consequatur at iste illo cumque facere. Nihil voluptas occaecati voluptatem ipsam id consequatur quidem ab nihil.",
-                            Title = "Isabella"
-                        },
-                        new
-                        {
-                            Id = 66,
-                            Genre = "Rock,World,Hip Hop",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "332 Rippin Fort, Lake Chanelleberg, Malawi,8854 Cortez Fields, Stephaniafurt, Montserrat,9097 Frankie Station, New Raleighport, Belgium",
-                            Released = 2023,
-                            Synopsis = "Eos rem aliquid dolorum. Accusamus voluptatibus natus error excepturi fugiat ipsam odit nihil. Quo qui quos et explicabo et quis. Assumenda sint magnam. Sit sunt itaque est temporibus ab quia non debitis nulla. Temporibus eos illo et sunt qui dolorum autem officiis occaecati.",
-                            Title = "Adolph"
-                        },
-                        new
-                        {
-                            Id = 67,
-                            Genre = "Hip Hop,Latin,Jazz",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "008 Schmitt Square, Queeniebury, Paraguay,4953 Douglas Burgs, New Elliott, Mozambique,759 Burnice Skyway, Lefflerstad, Liechtenstein",
-                            Released = 2023,
-                            Synopsis = "Cumque est praesentium fuga neque quis eum. Libero voluptatem quia tempore quas minus numquam sit nihil est. Non aliquam ut voluptatibus error esse error molestiae est labore. Aut dolorum illo velit laborum.",
-                            Title = "Kaley"
-                        },
-                        new
-                        {
-                            Id = 68,
-                            Genre = "Stage And Screen,World,Non Music",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "7686 Gaetano Roads, Keelingburgh, Fiji,924 Volkman Valleys, Wisokyshire, Jamaica,19747 Hermann Square, North Aniyah, Bangladesh",
-                            Released = 2023,
-                            Synopsis = "Tempora animi corrupti voluptate et voluptatibus amet non officia repellendus. Quidem doloribus suscipit in iusto. Sunt aut commodi harum praesentium et non ex doloremque nostrum.",
-                            Title = "Sheldon"
-                        },
-                        new
-                        {
-                            Id = 69,
-                            Genre = "World,Metal,Country",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "1589 Rippin Green, South Oswaldoview, Oman,1393 Lemke Common, Leoneton, Pakistan,0599 Johnston Expressway, Lebsackfurt, Cameroon",
-                            Released = 2023,
-                            Synopsis = "Rem accusantium possimus unde eveniet aut ipsam quasi veritatis. Non sint et commodi laborum voluptatum necessitatibus. Maiores vel sit ad provident aperiam deserunt non et veritatis. Quia aut at. Eos quia possimus animi nisi odio aspernatur ab velit.",
-                            Title = "Roselyn"
-                        },
-                        new
-                        {
-                            Id = 70,
-                            Genre = "Electronic,Soul,Electronic",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "536 Crooks Plaza, East Faustochester, Namibia,66414 Muller Row, Conroyfort, Mexico,560 Anais Valleys, West Bridie, Cook Islands",
-                            Released = 2022,
-                            Synopsis = "Quasi ad nihil. Quo voluptas eligendi. Numquam vel minima molestias tempore quia fugit. Sed impedit aut quia. Beatae magni quisquam labore nisi voluptas dignissimos. Eum quis molestias nesciunt.",
-                            Title = "Elisa"
-                        },
-                        new
-                        {
-                            Id = 71,
-                            Genre = "Stage And Screen,Pop,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "40114 Patience Field, Beattyberg, Swaziland,105 Adelbert Lock, Millsland, Oman,6752 Schumm Knoll, Port Buck, Costa Rica",
-                            Released = 2022,
-                            Synopsis = "Aut ut veniam dolorem quas et. Assumenda voluptates et aut. Ea eos modi magnam quia nesciunt sit quia. Asperiores ut vel voluptatum velit.",
-                            Title = "Yesenia"
-                        },
-                        new
-                        {
-                            Id = 72,
-                            Genre = "Metal,Latin,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "306 Kreiger Islands, Nienowfurt, Bulgaria,0049 Keeling Pine, Gracehaven, Mexico,53319 Cummings Coves, West Treva, United States of America",
-                            Released = 2023,
-                            Synopsis = "Ut magnam debitis voluptas ea iure. Voluptatem nobis rem. Perspiciatis repellat harum. Ratione omnis modi accusamus eius sapiente qui autem ipsam.",
-                            Title = "Dixie"
-                        },
-                        new
-                        {
-                            Id = 73,
-                            Genre = "Stage And Screen,Hip Hop,Hip Hop",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "21153 Christiansen Lodge, Madieshire, Saint Kitts and Nevis,50045 Trantow Locks, Kshlerinshire, South Africa,322 Anna Crossroad, Chadrickshire, Uzbekistan",
-                            Released = 2022,
-                            Synopsis = "Molestiae numquam voluptatibus qui. Aspernatur dolor hic et error dolores. Sint dignissimos aut et illo ut libero sunt. Amet laudantium esse id est odit.",
-                            Title = "Lavina"
-                        },
-                        new
-                        {
-                            Id = 74,
-                            Genre = "Latin,Country,Country",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "9408 Johnston Ranch, East Ronhaven, Wallis and Futuna,522 Baumbach Walk, Lake Torrancefurt, Turkey,003 Gillian Square, Kiptown, Haiti",
-                            Released = 2023,
-                            Synopsis = "Saepe consequatur veniam corporis mollitia eum iusto. Qui accusantium adipisci ducimus. Ut nesciunt animi totam voluptatem ducimus mollitia voluptatibus iure. Ea et soluta provident repellendus.",
-                            Title = "Robb"
-                        },
-                        new
-                        {
-                            Id = 75,
-                            Genre = "Reggae,Pop,Non Music",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "60169 Juanita Forges, South Kathrynmouth, Iraq,8992 Koch Brooks, Margarettafort, Gabon,014 Ferry Island, Lake Connie, Kenya",
-                            Released = 2023,
-                            Synopsis = "Aut omnis qui aut. Repudiandae perspiciatis explicabo magnam et corporis magnam impedit. Et voluptas ad consequatur cumque quae. Id quia quaerat tenetur laborum. Optio voluptate nam perferendis et magnam vero. In consequatur sed qui velit ipsum autem architecto aut.",
-                            Title = "Fae"
-                        },
-                        new
-                        {
-                            Id = 76,
-                            Genre = "Country,Reggae,Metal",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "724 Rohan Turnpike, East Ginaside, Ethiopia,190 Sydney Plaza, Terrytown, Sweden,3587 Jarod Mountains, Norwoodview, Argentina",
-                            Released = 2023,
-                            Synopsis = "Omnis quaerat laborum labore eum ipsa voluptatibus laborum. Est dolorem recusandae iusto qui reiciendis autem iste molestias. Soluta aut voluptas eum doloremque. Hic molestias quas nulla qui et quia. Nam libero rerum earum ipsam nihil magnam ea id dicta.",
-                            Title = "Santiago"
-                        },
-                        new
-                        {
-                            Id = 77,
-                            Genre = "Funk,Latin,Hip Hop",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "20690 Trent Shoals, New Aric, Saint Vincent and the Grenadines,69180 Schowalter Ville, New Tanyahaven, Faroe Islands,33215 Green Island, Lake Antonetta, Kuwait",
-                            Released = 2023,
-                            Synopsis = "Deserunt non minus facere id nam labore soluta. Reiciendis autem officiis quis consequuntur provident qui. Praesentium enim ut magni in voluptatibus. Aut et magnam ut sit possimus expedita voluptas quisquam. Vero eveniet voluptas officia. Voluptatem provident ea aut assumenda omnis quaerat et quo et.",
-                            Title = "Anita"
-                        },
-                        new
-                        {
-                            Id = 78,
-                            Genre = "Electronic,Blues,Electronic",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "50985 Maxime Bypass, New Jordanebury, Bangladesh,9537 Corkery Ports, Nathanielview, Maldives,1986 Dannie Radial, Zackaryberg, Bulgaria",
-                            Released = 2023,
-                            Synopsis = "Ea eum similique ipsum molestias nam dicta. Qui doloribus dolores nemo voluptate commodi. Necessitatibus ut labore saepe ipsam. Deserunt quae laudantium sunt ducimus eum facilis dolores ad. Delectus commodi odio. Ullam veniam amet fugiat magnam quia hic.",
-                            Title = "Ressie"
-                        },
-                        new
-                        {
-                            Id = 79,
-                            Genre = "Stage And Screen,Rap,Rap",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "09946 Heller Crescent, Port Rodmouth, Republic of Korea,625 Vida Radial, Port Osborne, Andorra,3745 Lempi Union, North Rodgerland, Serbia",
-                            Released = 2023,
-                            Synopsis = "Dolorem et saepe quam. Ex pariatur ut debitis dolore perspiciatis libero. Nemo facere quia id. Eaque omnis aut rerum laboriosam.",
-                            Title = "Johnathon"
-                        },
-                        new
-                        {
-                            Id = 80,
-                            Genre = "Classical,Blues,Folk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "230 Burley Gardens, Schummberg, Liechtenstein,66439 Block Tunnel, Betsystad, Tanzania,00280 Kihn Rapids, New Margaritaborough, Norway",
-                            Released = 2023,
-                            Synopsis = "Corrupti labore rem repellat rem voluptatibus. Inventore eos aut sit ea rerum et. Reprehenderit voluptate cupiditate sint est nihil. Optio voluptas quibusdam nihil ipsum modi enim id.",
-                            Title = "Marguerite"
-                        },
-                        new
-                        {
-                            Id = 81,
-                            Genre = "Soul,Rock,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "0110 Reinger Squares, Willmschester, Israel,5360 Garth Village, East Katelynfort, United Kingdom,947 Lynch Shoal, North Delilahmouth, Samoa",
-                            Released = 2023,
-                            Synopsis = "Officiis saepe commodi suscipit. Nobis enim atque tempora libero eum est aut. Sequi sed quia ad omnis voluptatibus excepturi exercitationem libero quia. Vel animi repellendus similique et voluptas eum doloremque ex.",
-                            Title = "Taurean"
-                        },
-                        new
-                        {
-                            Id = 82,
-                            Genre = "Latin,Folk,Electronic",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "52993 Creola Drives, Port Jasenmouth, Belarus,0787 Birdie Square, West Albertport, Uzbekistan,17723 Maia Square, South Prudence, Saint Pierre and Miquelon",
-                            Released = 2023,
-                            Synopsis = "Non iste vero sed voluptatem nam. Nihil quia cumque aut. Quas distinctio impedit maiores aut voluptate animi quisquam incidunt excepturi. Dolorum molestias mollitia voluptatem nam aliquid accusamus mollitia iure alias.",
-                            Title = "Keira"
-                        },
-                        new
-                        {
-                            Id = 83,
-                            Genre = "Rap,Hip Hop,Folk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "031 Hagenes Estates, Verdaville, Slovenia,54035 Greyson Vista, North Joshuaberg, Ukraine,1329 Amelie Knoll, Schuppeshire, Saint Lucia",
-                            Released = 2023,
-                            Synopsis = "Et quis corporis consectetur facilis est ratione enim tempore vitae. Ut et hic et consequatur blanditiis aut. Maiores error cum eos quo numquam vero architecto est. Maxime excepturi eligendi ratione culpa error et dolor et aut. Similique omnis voluptatem tempora aliquid delectus qui sed. Voluptatem eos autem.",
-                            Title = "Cindy"
-                        },
-                        new
-                        {
-                            Id = 84,
-                            Genre = "Rap,Country,Metal",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "7065 Frami Throughway, North Kurt, Brazil,2680 George Parks, Hermannmouth, Uzbekistan,55906 O'Hara Bypass, Haroldland, Denmark",
-                            Released = 2023,
-                            Synopsis = "In nesciunt molestias sed voluptatem doloremque veniam eveniet cumque qui. Neque doloremque ut ipsam et est et assumenda deleniti sed. Voluptatem harum qui id commodi harum.",
-                            Title = "Sigmund"
-                        },
-                        new
-                        {
-                            Id = 85,
-                            Genre = "Hip Hop,Country,Non Music",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "059 Paige Branch, Cormierton, India,0469 Ratke Walks, Lake Karianeview, Virgin Islands, U.S.,753 Garth Islands, Muhammadmouth, Liechtenstein",
-                            Released = 2022,
-                            Synopsis = "Rerum ipsum vel. Corrupti saepe adipisci quisquam cumque sit voluptatem. Dolor molestias incidunt veritatis nam fugit omnis delectus. Cum quia odio et dicta dolorum. Nisi nam quo mollitia voluptate aut nam consectetur impedit nobis.",
-                            Title = "Aida"
-                        },
-                        new
-                        {
-                            Id = 86,
-                            Genre = "Rock,Rock,Classical",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "6545 Langosh Turnpike, Lake Odessachester, Georgia,9864 Kerluke Trace, Tiaville, Estonia,321 Hahn Way, South Kellenborough, Niue",
-                            Released = 2023,
-                            Synopsis = "At qui quia sed earum omnis omnis eos fugit voluptatem. Aspernatur aperiam voluptatibus. Sed et rerum iusto. Nulla quo officiis illum nihil quae natus sint eligendi. Velit perferendis quibusdam voluptas deleniti quo aliquam beatae delectus.",
-                            Title = "Melvin"
-                        },
-                        new
-                        {
-                            Id = 87,
-                            Genre = "Latin,Classical,World",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "232 Crist Circle, New Princess, Latvia,1254 Janie Ports, Port Benmouth, Belarus,855 Maggie Highway, Fishermouth, Guinea",
-                            Released = 2023,
-                            Synopsis = "Adipisci est aperiam omnis adipisci vel dolorem porro. Architecto ut aut officiis in. Aliquid provident rem eius sit sed et quia ea sunt.",
-                            Title = "Aiden"
-                        },
-                        new
-                        {
-                            Id = 88,
-                            Genre = "Jazz,Metal,Folk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "03684 Nikolaus Harbor, Rohanbury, Eritrea,95752 Pasquale Island, Brakusmouth, Cote d'Ivoire,376 Roberts Stravenue, Starkfort, Puerto Rico",
-                            Released = 2023,
-                            Synopsis = "Sit rerum possimus qui nihil minus quis. Aliquam vero cupiditate nulla est culpa fugiat voluptatem. Nisi aut libero. Deserunt dignissimos animi similique iusto amet. Voluptatem rem inventore voluptatem enim est. Ut culpa voluptatem perspiciatis rem rerum voluptas quam est odio.",
-                            Title = "Albin"
-                        },
-                        new
-                        {
-                            Id = 89,
-                            Genre = "Soul,Jazz,Non Music",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "45802 Humberto Track, New Lyla, Bouvet Island (Bouvetoya),107 Rosamond Hill, McGlynnfort, Saudi Arabia,0755 Noel Plains, Port Lilla, Hong Kong",
-                            Released = 2023,
-                            Synopsis = "Sequi corrupti aut et a delectus reiciendis. Magni ducimus explicabo et nostrum quo exercitationem. In aperiam ut ducimus perferendis ad sint eius. Ullam doloribus impedit laboriosam. Quasi blanditiis est velit maxime sunt maiores dolores voluptas placeat.",
-                            Title = "Daren"
-                        },
-                        new
-                        {
-                            Id = 90,
-                            Genre = "Pop,Reggae,Folk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "34131 Adeline Lake, Aliyahview, Trinidad and Tobago,77883 Morar Brook, East Nicolaland, Tajikistan,18480 Scot Parks, Fritschview, United States Minor Outlying Islands",
-                            Released = 2022,
-                            Synopsis = "Ducimus sint et beatae. Aliquam velit officia molestiae odit. Rerum nihil aspernatur facilis.",
-                            Title = "Zula"
-                        },
-                        new
-                        {
-                            Id = 91,
-                            Genre = "Electronic,Jazz,Soul",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "127 White Ramp, Jackyborough, Bulgaria,3891 Joelle Spur, West Elyssa, Bangladesh,60881 Kaela Hill, Port Gloria, Grenada",
-                            Released = 2023,
-                            Synopsis = "Assumenda reprehenderit eveniet. Repudiandae itaque pariatur debitis a reiciendis incidunt provident tempora. Et aspernatur maxime sint. Ut blanditiis et. Explicabo quo corrupti ad itaque ut commodi velit dolore.",
-                            Title = "Lloyd"
-                        },
-                        new
-                        {
-                            Id = 92,
-                            Genre = "Electronic,Electronic,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "720 Ulices Plains, East Mose, Jordan,9961 Ayla Pass, Auerton, Saudi Arabia,17261 Beier Stream, Beauville, American Samoa",
-                            Released = 2023,
-                            Synopsis = "Id est fugiat aliquid quia ratione quidem quam. Quia magnam est magni. Molestiae rerum odit sit facere sed dolores quam omnis. Error saepe animi. Atque voluptatem ex sint maxime et. Totam eum corporis molestias facere.",
-                            Title = "Jedidiah"
-                        },
-                        new
-                        {
-                            Id = 93,
-                            Genre = "Country,Jazz,Metal",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "392 Marquis Mission, Caspertown, Botswana,0323 Lucie Knoll, Howeview, Botswana,090 Gordon Centers, East Harold, Aruba",
-                            Released = 2023,
-                            Synopsis = "Voluptatem officia dolorum quo dolorum blanditiis consequatur. Qui ab iusto qui deleniti eius est voluptatem. Voluptatem nobis quibusdam et quia quidem repellat.",
-                            Title = "Rosalinda"
-                        },
-                        new
-                        {
-                            Id = 94,
-                            Genre = "Latin,Funk,Hip Hop",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "7898 Marcos Isle, Port Marlenborough, New Zealand,1300 Hassan Pine, North Alfonzo, Montserrat,66281 Maci Haven, Maddisonstad, Bangladesh",
-                            Released = 2023,
-                            Synopsis = "In maxime quod autem nobis. Aut minus maxime. Ad et laborum magni adipisci cupiditate eveniet. Commodi aut earum cupiditate.",
-                            Title = "Tyrique"
-                        },
-                        new
-                        {
-                            Id = 95,
-                            Genre = "Rock,World,Reggae",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "48495 Lazaro Mission, Port Karlieburgh, Liechtenstein,03913 Ayla Station, Makennafort, Martinique,2849 Boyle Wall, West Kaydenview, Jamaica",
-                            Released = 2023,
-                            Synopsis = "Odit architecto facilis debitis eaque et. Autem aut et ipsum ut dolores natus. Laudantium sed quidem et quos architecto. Nisi asperiores quisquam tempore hic ab.",
+                            Synopsis = "Est velit eos perferendis eum sit debitis magni. Laudantium ipsum labore doloremque eaque iste blanditiis consectetur est asperiores. Quis in porro. Deserunt aliquam dolores fugiat. Ea quidem sapiente ut in voluptas consequuntur blanditiis voluptatem. Qui nam hic non dolores consequatur enim esse rem.",
                             Title = "Jean"
                         },
                         new
                         {
-                            Id = 96,
-                            Genre = "Rap,Pop,World",
+                            Id = 12,
+                            Genre = "Pop,Reggae,Reggae",
                             ImdbRating = 7.4f,
-                            ImdbURL = "4370 McClure Stream, East Clotilde, Kazakhstan,732 Kristopher Park, Ronaldofurt, Ecuador,013 Reilly Green, East Rachaelmouth, Djibouti",
+                            ImdbURL = "02818 Lehner Junctions, Daughertyberg, Cyprus,40628 Schulist Fords, Jarvisburgh, Brazil,16421 Enos Course, Lake Kearabury, Tanzania",
                             Released = 2023,
-                            Synopsis = "Facere quia facere quia voluptates perferendis. Repudiandae cum modi error maxime eum. Sit eaque qui.",
-                            Title = "Brooke"
+                            Synopsis = "Neque vel ipsa et fugit qui tenetur amet est. Error perspiciatis quia dolor ut nobis quaerat voluptatem animi est. Adipisci ea porro voluptas. Similique non eum voluptas eligendi aut quam deleniti.",
+                            Title = "Sigurd"
                         },
                         new
                         {
-                            Id = 97,
-                            Genre = "Rock,Electronic,Soul",
+                            Id = 13,
+                            Genre = "Reggae,Hip Hop,Rap",
                             ImdbRating = 7.4f,
-                            ImdbURL = "5697 Jaida Pine, New Reva, Croatia,19059 Ricardo Field, Lake Madyson, Spain,00450 Huel Freeway, Port Theaborough, Congo",
-                            Released = 2023,
-                            Synopsis = "Magnam veniam voluptas. Labore ut cupiditate voluptatem voluptates fugiat voluptatem nam et. Maiores vitae quis nulla rerum officia quo. Modi corporis sapiente illum et blanditiis tempora in similique.",
-                            Title = "Arvid"
-                        },
-                        new
-                        {
-                            Id = 98,
-                            Genre = "Electronic,Stage And Screen,Electronic",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "7633 Davis Valley, Jammiefurt, Sao Tome and Principe,785 Wilderman Ridge, South Will, Anguilla,027 Jakubowski Landing, Purdymouth, Bhutan",
-                            Released = 2023,
-                            Synopsis = "Eligendi pariatur magni repellendus cum. Nemo delectus sed ullam vel iusto reiciendis iste qui accusantium. Et nesciunt aut autem. Quos quis dolorem aliquid commodi non. Officia rerum enim adipisci laboriosam minus iusto minus qui. Et occaecati distinctio et tempora ipsa dolores reiciendis.",
-                            Title = "Katrina"
-                        },
-                        new
-                        {
-                            Id = 99,
-                            Genre = "Rock,Reggae,Funk",
-                            ImdbRating = 7.4f,
-                            ImdbURL = "8890 Zemlak Mews, West Hilmabury, Bahrain,9081 Elinore Manors, Zulaland, Republic of Korea,863 Harvey Vista, Jameyfurt, Kazakhstan",
+                            ImdbURL = "077 Devyn Prairie, Port Arthur, Finland,176 Anahi Club, South Branson, Peru,1055 Sporer Fords, Tremblayhaven, Bangladesh",
                             Released = 2022,
-                            Synopsis = "Nostrum voluptas debitis quia in. Neque voluptatem minus exercitationem perferendis tenetur tenetur veniam corrupti eos. Quia vitae dolorem itaque voluptatem.",
-                            Title = "Kennith"
+                            Synopsis = "Iusto voluptate et saepe dolorum quia reiciendis non optio eum. Incidunt mollitia inventore aliquid architecto ut voluptas molestiae enim qui. Voluptatum ea occaecati laborum quaerat natus id cupiditate eos at. Quo nesciunt asperiores molestiae in animi aliquid vel ut quibusdam. Optio tempora aperiam incidunt qui consequuntur dolore. Ipsa culpa ipsam eius illum ut illo consequuntur.",
+                            Title = "Alek"
                         },
                         new
                         {
-                            Id = 100,
-                            Genre = "Non Music,Reggae,Metal",
+                            Id = 14,
+                            Genre = "Country,Metal,Jazz",
                             ImdbRating = 7.4f,
-                            ImdbURL = "37666 Santino Glens, Champlinport, Guadeloupe,6325 Kuhic Keys, Lamontton, Dominican Republic,33533 Karelle Mountains, Kihnchester, Sri Lanka",
+                            ImdbURL = "116 Kadin Isle, Spinkaville, Belize,668 Corkery Village, Brakusside, Algeria,4295 Klein Ways, Kovacekton, Honduras",
                             Released = 2023,
-                            Synopsis = "Magnam eligendi excepturi qui ut amet optio fugiat nisi inventore. Minus consequatur vel esse consequatur hic molestiae. Eaque neque cum eum neque nemo et. Quia aperiam vitae.",
-                            Title = "Isai"
+                            Synopsis = "Eveniet id sint. Aut aperiam magni excepturi consectetur odio. Sint enim officia blanditiis. Odio vitae iusto aliquam praesentium ad rerum. Ducimus architecto ratione iste.",
+                            Title = "Darrel"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Genre = "Folk,Pop,World",
+                            ImdbRating = 7.4f,
+                            ImdbURL = "2143 Clarabelle Plains, West Simeonfort, Sweden,3451 Morgan Skyway, Shannaton, Nicaragua,0788 Kohler Field, Beerview, Republic of Korea",
+                            Released = 2023,
+                            Synopsis = "Possimus et et ea repellendus repudiandae consequuntur. Cumque et maxime vel ut autem blanditiis dolorem voluptates. Quo accusamus quia deserunt odit excepturi. Ipsum dignissimos quod aut.",
+                            Title = "Brigitte"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Genre = "Non Music,Electronic,Non Music",
+                            ImdbRating = 7.4f,
+                            ImdbURL = "3924 Dickinson Plaza, Lake Eudora, Tunisia,5711 Renner Knolls, Lake Danikastad, Singapore,2468 Gottlieb Forges, Krajcikport, Republic of Korea",
+                            Released = 2023,
+                            Synopsis = "Ducimus omnis aspernatur. Provident corrupti aut nesciunt vitae sed nobis expedita ut. Molestiae et ratione. Ea cum repellat totam est placeat at non.",
+                            Title = "Wayne"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Genre = "Funk,Jazz,Reggae",
+                            ImdbRating = 7.4f,
+                            ImdbURL = "069 Jody Vista, Heathview, Mali,79500 Adams Curve, Keithview, Svalbard & Jan Mayen Islands,624 Harry River, West Audrey, China",
+                            Released = 2022,
+                            Synopsis = "Dolorum dicta saepe tempora. Beatae enim quaerat molestias. Odio provident voluptatum. Ex quod deleniti ipsa vitae et eos quia. In assumenda nobis nisi qui autem. Iure vitae quos animi quasi explicabo labore aut debitis labore.",
+                            Title = "Henry"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Genre = "Country,Jazz,Stage And Screen",
+                            ImdbRating = 7.4f,
+                            ImdbURL = "85691 Stiedemann Neck, Amiefurt, Namibia,183 Christ Knoll, North Jammiefurt, Saint Vincent and the Grenadines,59604 Nichole Ferry, Hellerborough, Antarctica (the territory South of 60 deg S)",
+                            Released = 2022,
+                            Synopsis = "Quo adipisci assumenda itaque reprehenderit. Corrupti quis rerum. Autem quasi consequatur voluptas qui et asperiores non. Voluptatum consequatur magni ut accusamus beatae.",
+                            Title = "Micah"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Genre = "Non Music,Electronic,Stage And Screen",
+                            ImdbRating = 7.4f,
+                            ImdbURL = "902 Hosea Manor, Stiedemannchester, Wallis and Futuna,38216 Wuckert Fork, East Evie, Palau,18213 Dedric Harbors, Lake Geoffreyfort, San Marino",
+                            Released = 2023,
+                            Synopsis = "Eos impedit rem id mollitia dignissimos est excepturi deserunt. Alias et sunt blanditiis corporis. Repellat sed quia dolorum et voluptatum et. Autem rerum atque quia delectus beatae. Sunt et tempora earum iusto et optio rerum minus. Suscipit fugiat placeat odio qui.",
+                            Title = "Cletus"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Genre = "Blues,Stage And Screen,Soul",
+                            ImdbRating = 7.4f,
+                            ImdbURL = "1628 Haag Vista, Lake Isabella, United States of America,678 King Parkway, Vandervortchester, Spain,0971 Hegmann Union, Blancatown, Cayman Islands",
+                            Released = 2022,
+                            Synopsis = "Est laborum nihil praesentium nesciunt iste consectetur iusto. Odio ut sint velit beatae qui. Sint quia totam et in.",
+                            Title = "Myrtice"
                         });
                 });
 #pragma warning restore 612, 618

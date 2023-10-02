@@ -33,7 +33,7 @@ public class DataContext : DbContext, IDataContext
         });
 
         var fakeMovies = new List<Movie>();
-        for (var i = 0; i < 100; i++)
+        for (var i = 0; i < 20; i++)
         {
             var fakeMovie = new Faker<Movie>()
                 .RuleFor(x => x.Id, i + 1)
