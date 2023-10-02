@@ -42,10 +42,41 @@ public class DataContext : DbContext, IDataContext
                 .RuleFor(x => x.ImdbURL, f => f.Make(3, () => f.Address.FullAddress()))
                 .RuleFor(x => x.Genre, f => f.Make(3, () => f.Music.Genre()))
                 .RuleFor(x => x.ImdbRating, f => 7.4f)
-                .RuleFor(x => x.Released, f => f.Date.Past().Year);
+                .RuleFor(x => x.Released, f => f.Date.Past().Year)
+                .RuleFor(x => x.CreatedAt, f => f.Date.Past())
+                .RuleFor(x => x.UpdatedAt, f => DateTime.UtcNow);
             fakeMovies.Add(fakeMovie);
         }
 
         modelBuilder.Entity<Movie>().HasData(fakeMovies);
+    }
+    
+    public override int SaveChanges()
+    {
+        AddTimestamps();
+        return base.SaveChanges();
+    }
+
+    public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
+    {
+        AddTimestamps();
+        return await base.SaveChangesAsync(cancellationToken);
+    }
+
+    private void AddTimestamps()
+    {
+        var entities = ChangeTracker.Entries()
+            .Where(x => x.Entity is BaseEntity && (x.State == EntityState.Added || x.State == EntityState.Modified));
+
+        foreach (var entry in entities)
+        {
+            var dateNow = DateTime.UtcNow;
+
+            if (entry.State == EntityState.Added)
+            {
+                ((BaseEntity)entry.Entity).CreatedAt = dateNow;
+            }
+            ((BaseEntity)entry.Entity).UpdatedAt = dateNow;
+        }
     }
 }
