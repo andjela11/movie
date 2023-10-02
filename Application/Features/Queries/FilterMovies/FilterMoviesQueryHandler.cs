@@ -17,6 +17,13 @@ public sealed class FilterMoviesQueryHandler : IRequestHandler<FilterMoviesQuery
     public async Task<List<Movie>> Handle(FilterMoviesQuery request, CancellationToken cancellationToken)
     {
         var movies = this._context.Movies.AsQueryable();
+        
+        return await movies
+            .Skip((request.PageNumber - 1) * request.PageSize)
+            .Take(request.PageSize)
+            .ToListAsync(cancellationToken);
+        
+        /*
         if (request.MovieFilter!.MinYear != 0)
         {
             movies = movies.Where(x => x.Released >= request.MovieFilter.MinYear);
@@ -26,10 +33,7 @@ public sealed class FilterMoviesQueryHandler : IRequestHandler<FilterMoviesQuery
         {
             movies = movies.Where(x => x.Released <= request.MovieFilter.MaxYear);
         }
+        */
 
-        return await movies
-            .Skip((request.PageNumber - 1) * request.PageSize)
-            .Take(request.PageSize)
-            .ToListAsync(cancellationToken);
     }
 }

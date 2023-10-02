@@ -70,20 +70,19 @@ public class MoviesController : ControllerBase
     /// <summary>
     /// Returns a paginated movies based on passed filters for released years
     /// </summary>
-    /// <param name="movieFilter">Filter movies by year range</param>
     /// <param name="pageSize">Number of movies per page</param>
     /// <param name="pageNumber">Pages number</param>
     /// <returns>List of <see cref="Movie"/></returns>
-    [HttpPost("filter")]
+    [HttpGet("filter")] // method was post
     [SwaggerResponse((int)HttpStatusCode.OK, Type = typeof(Movie))]
     [SwaggerResponse((int)HttpStatusCode.UnprocessableEntity, Description = "Unsuccessful validation")]
     [SwaggerResponse((int)HttpStatusCode.InternalServerError, Description = "Unexpected event occurred")]
     public async Task<ActionResult<List<Movie>>> GetMoviesAsync(
-        [FromBody] MovieFilterDto movieFilter,
+        //[FromBody] MovieFilterDto movieFilter,
         [FromQuery] int pageSize = 50,
         [FromQuery] int pageNumber = 1)
     {
-        var getMoviesQuery = new FilterMoviesQuery(PageSize: pageSize, PageNumber: pageNumber, movieFilter);
+        var getMoviesQuery = new FilterMoviesQuery(PageSize: pageSize, PageNumber: pageNumber);
         var movies = await this._mediator.Send(getMoviesQuery);
 
         return Ok(movies);
